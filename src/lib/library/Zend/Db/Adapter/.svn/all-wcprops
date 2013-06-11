@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter
+END
+Sqlsrv.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter/Sqlsrv.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter/Exception.php
+END
+Mysqli.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter/Mysqli.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter/Abstract.php
+END
+Oracle.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter/Oracle.php
+END
+Db2.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Db/Adapter/Db2.php
+END

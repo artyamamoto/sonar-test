@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Collection.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Exception.php
+END
+Dn.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Dn.php
+END
+Attribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Attribute.php
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node.php
+END
+Converter.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Converter.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Oauth/Signature
+END
+Rsa.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Oauth/Signature/Rsa.php
+END
+SignatureAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Oauth/Signature/SignatureAbstract.php
+END
+Hmac.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Oauth/Signature/Hmac.php
+END
+Plaintext.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Oauth/Signature/Plaintext.php
+END

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ui-content .select-box hr {
+	color:     #f90;
+	margin:    1em -15px;
+}
+
+.ui-content .purchase hr {
+	margin:    1em -15px;
+}

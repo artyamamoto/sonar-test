@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/Schema/AttributeType
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/Schema/AttributeType/ActiveDirectory.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/Schema/AttributeType/Interface.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/Schema/AttributeType/OpenLdap.php
+END

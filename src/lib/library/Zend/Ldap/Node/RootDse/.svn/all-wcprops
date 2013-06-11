@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/RootDse
+END
+eDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/RootDse/eDirectory.php
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/RootDse/ActiveDirectory.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Node/RootDse/OpenLdap.php
+END

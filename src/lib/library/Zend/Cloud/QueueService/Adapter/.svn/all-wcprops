@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Cloud/QueueService/Adapter
+END
+WindowsAzure.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Cloud/QueueService/Adapter/WindowsAzure.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Cloud/QueueService/Adapter/AbstractAdapter.php
+END
+ZendQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Cloud/QueueService/Adapter/ZendQueue.php
+END
+Sqs.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Cloud/QueueService/Adapter/Sqs.php
+END

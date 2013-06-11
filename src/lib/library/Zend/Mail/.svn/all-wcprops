@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Mail
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Mail/Exception.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Mail/Message.php
+END
+Storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Mail/Storage.php
+END
+Part.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Mail/Part.php
+END

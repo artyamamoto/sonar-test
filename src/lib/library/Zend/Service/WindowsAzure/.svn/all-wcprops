@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/Exception.php
+END
+SessionHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/SessionHandler.php
+END
+Storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/Storage.php
+END

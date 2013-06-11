@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub
+END
+CallbackInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub/CallbackInterface.php
+END
+Publisher.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub/Publisher.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub/Exception.php
+END
+HttpResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub/HttpResponse.php
+END
+CallbackAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub/CallbackAbstract.php
+END
+Subscriber.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Feed/Pubsubhubbub/Subscriber.php
+END

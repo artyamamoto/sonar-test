@@ -1,0 +1,13 @@
+[global]
+ApplicationName=eight7
+AwsCredentialFile=/Users/yamamotokazuaki/.elasticbeanstalk/aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.ap-northeast-1.amazonaws.com
+EnvironmentName=eight7-env
+OptionSettingFile=/Users/yamamotokazuaki/Documents/aws.eb/eight7/.elasticbeanstalk/optionsettings.eight7-env
+RdsDeletionPolicy=Delete
+RdsEnabled=Yes
+RdsSourceSnapshotName=
+Region=ap-northeast-1
+ServiceEndpoint=https://elasticbeanstalk.ap-northeast-1.amazonaws.com
+SolutionStack=32bit Amazon Linux running PHP 5.4
+

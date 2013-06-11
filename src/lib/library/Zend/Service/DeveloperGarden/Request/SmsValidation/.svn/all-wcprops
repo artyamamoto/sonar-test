@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/SmsValidation
+END
+GetValidatedNumbers.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/SmsValidation/GetValidatedNumbers.php
+END
+SendValidationKeyword.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/SmsValidation/SendValidationKeyword.php
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/SmsValidation/Validate.php
+END
+Invalidate.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/SmsValidation/Invalidate.php
+END

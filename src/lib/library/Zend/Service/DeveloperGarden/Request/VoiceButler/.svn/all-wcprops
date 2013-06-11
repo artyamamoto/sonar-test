@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/VoiceButler
+END
+CallStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/VoiceButler/CallStatus.php
+END
+TearDownCall.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/VoiceButler/TearDownCall.php
+END
+NewCallSequenced.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/VoiceButler/NewCallSequenced.php
+END
+NewCall.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/VoiceButler/NewCall.php
+END
+VoiceButlerAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/DeveloperGarden/Request/VoiceButler/VoiceButlerAbstract.php
+END

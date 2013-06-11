@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding
+END
+PaginationOutput.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/PaginationOutput.php
+END
+Category.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/Category.php
+END
+ShippingInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/ShippingInfo.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/Exception.php
+END
+Aspect.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/Aspect.php
+END
+SellingStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/SellingStatus.php
+END
+SellerInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/SellerInfo.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/Abstract.php
+END
+ListingInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/ListingInfo.php
+END
+Storefront.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/Ebay/Finding/Storefront.php
+END

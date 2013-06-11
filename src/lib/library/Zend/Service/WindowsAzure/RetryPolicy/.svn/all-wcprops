@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/RetryPolicy
+END
+RetryPolicyAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/RetryPolicy/RetryPolicyAbstract.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/RetryPolicy/Exception.php
+END
+NoRetry.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/RetryPolicy/NoRetry.php
+END
+RetryN.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Service/WindowsAzure/RetryPolicy/RetryN.php
+END

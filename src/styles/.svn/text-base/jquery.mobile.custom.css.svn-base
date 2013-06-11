@@ -1,0 +1,158 @@
+/**
+ * jquery mobileのカスタマイズ
+ */
+
+/**
+ * a data-role="button"
+ */
+.ui-btn-active {
+    border: 1px solid       #bbb;
+    background:             #ededed;
+    font-weight:            normal;
+    color:                  #101010;
+    cursor: pointer;
+    text-shadow:            none;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(top,
+                            #ddd,
+                            #ededed);
+    background-image: -webkit-gradient(linear,left top,left bottom,
+        color-stop(0,       #ddd),
+        color-stop(1,       #ededed));
+    outline: none;
+}
+
+.ui-btn-active a.ui-link-inherit {
+    color:                  #2F3E46;
+}
+
+a.ui-btn-corner-all {
+    text-shadow:        none;
+    margin:             0 auto;
+    white-space:        normal;
+}
+
+/**
+ * アーティストページ内、ArtistTopリンク
+ */
+.ui-header a.ui-btn-corner-all {
+    border:             1px solid #000;
+    background:         #52656b;
+    color:              #000;
+    text-shadow:        none;
+    font-weight:        normal;
+    box-shadow:         none;
+}
+
+.ui-header a.ui-btn-corner-all .ui-btn-inner {
+    background:         #fff;
+}
+
+/**
+ * リスト表示、ボタンで折り返しを行う
+ */
+.ui-li .ui-btn-text a.ui-link-inherit,
+.ui-btn-inner {
+    white-space:        normal;
+}
+
+/**
+ *
+ */
+.ui-li-aside {
+    color:              #f00;
+}
+
+/**
+ * UPマーク
+ */
+.ui-icon-up, .ui-icon-new {
+    background-image: url(../images_sp/icons-36-custom.png);
+    -moz-background-size: 36px 18px;
+    -o-background-size: 36px 18px;
+    -webkit-background-size: 36px 18px;
+    background-size: 36px 18px;
+}
+
+.ui-icon-up {
+    background-position:    0px 50%;
+}
+
+.ui-icon-new {
+    background-position:    -18px 50%;
+}
+
+/**
+ * ui-content内で折り返しを行う
+ */
+.ui-content {
+    word-break:             break-all;
+}
+
+/**
+ * HR、data-role="content"内で、左右100%
+ */
+.ui-content hr {
+    margin:                 0 -15px;
+}
+
+/**
+ * MEDIA INFO用HR
+ */
+.ui-content hr.ui-border-media {
+    margin:                 1.5em -15px;
+    border:                 none;
+    border-top:             1px solid black;
+}
+
+/**
+ * marquee、data-role="content"内で、左右100%
+ */
+.ui-content marquee {
+    margin:                 0 -15px;
+}
+
+/**
+ * Artist topなどでの、メニュー内の左側のアイコン
+ */
+.ui-listview .ui-icon-left {
+    left:                   10px;
+}
+
+/**
+ * Topページ、FAVORITE ARTIST
+ */
+.ui-box-favorite {
+    text-align:             center;
+    margin:                 30px;
+    padding:                10px 20px;
+	background: 			#c5a866;
+	font-weight:            normal;
+	color: 					#432f00;
+	text-shadow:            0 -1px 1px #fff;
+	background-image: -moz-linear-gradient(top, 
+							#c5a866,
+							#fff,
+							#c5a866);
+	background-image: -webkit-gradient(linear,left top,left bottom,
+			color-stop(0, 	#c5a866),
+			color-stop(.6, #fff),
+			color-stop(1, 	#c5a866));
+    -moz-border-radius:                 .5em;
+    -webkit-border-radius:              .5em;
+}
+
+.ui-box-favorite img {
+    width:                  70%;
+    -moz-border-radius:                 .3em;
+    -webkit-border-radius:              .3em;
+}
+
+/**
+ * 日記Backnumber
+ */
+a.ui-controlgroup.botton.all {
+    text-shadow:        none;
+    margin:             0 auto;
+}
+

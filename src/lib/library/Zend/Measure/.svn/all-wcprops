@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure
+END
+Energy.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Energy.php
+END
+Acceleration.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Acceleration.php
+END
+Capacitance.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Capacitance.php
+END
+Power.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Power.php
+END
+Temperature.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Temperature.php
+END
+Time.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Time.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Exception.php
+END
+Force.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Force.php
+END
+Speed.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Speed.php
+END
+Lightness.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Lightness.php
+END
+Frequency.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Frequency.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Abstract.php
+END
+Illumination.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Illumination.php
+END
+Volume.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Volume.php
+END
+Pressure.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Pressure.php
+END
+Area.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Area.php
+END
+Torque.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Torque.php
+END
+Density.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Density.php
+END
+Length.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Length.php
+END
+Current.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Current.php
+END
+Binary.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Binary.php
+END
+Angle.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Angle.php
+END
+Weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Weight.php
+END
+Number.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Measure/Number.php
+END

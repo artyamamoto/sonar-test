@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter
+END
+Logical.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/Logical.php
+END
+Mask.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/Mask.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/Exception.php
+END
+Not.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/Not.php
+END
+Or.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/Or.php
+END
+And.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/And.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/Abstract.php
+END
+String.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Ldap/Filter/String.php
+END

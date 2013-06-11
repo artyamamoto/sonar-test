@@ -1,0 +1,46 @@
+/**
+ * Johnny's web 汎用css
+ */
+
+/**
+ * font
+ */
+@font-face {
+  font-family: 'Artbank Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('artbank.ttf') format('truetype');
+}
+
+/**
+ * body
+ * ウェブフォント使用
+ */
+body {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+
+/**
+ * hr
+ */
+hr {
+    border-style:           solid;
+    margin:                 0;
+}
+
+/**
+ * p
+ * 余白0
+ */
+p {
+    margin:             0px;
+    padding:            0px;
+}
+
+/**
+ * marquee
+ */
+marquee {
+    padding:            6px 0 4px 0;
+}
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Rest
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Rest/Client.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Rest/Exception.php
+END
+Route.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Rest/Route.php
+END
+Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Rest/Controller.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Rest/Server.php
+END

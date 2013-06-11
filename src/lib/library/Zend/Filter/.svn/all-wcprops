@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter
+END
+PregReplace.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/PregReplace.php
+END
+Int.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Int.php
+END
+Compress.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Compress.php
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Callback.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Exception.php
+END
+LocalizedToNormalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/LocalizedToNormalized.php
+END
+NormalizedToLocalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/NormalizedToLocalized.php
+END
+Input.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Input.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Interface.php
+END
+RealPath.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/RealPath.php
+END
+StringTrim.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/StringTrim.php
+END
+Decompress.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Decompress.php
+END
+StripNewlines.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/StripNewlines.php
+END
+HtmlEntities.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/HtmlEntities.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Null.php
+END
+Decrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Decrypt.php
+END
+BaseName.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/BaseName.php
+END
+Alnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Alnum.php
+END
+Dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Dir.php
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Boolean.php
+END
+StripTags.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/StripTags.php
+END
+StringToLower.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/StringToLower.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Digits.php
+END
+Encrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Encrypt.php
+END
+StringToUpper.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/StringToUpper.php
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Inflector.php
+END
+Alpha.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Filter/Alpha.php
+END

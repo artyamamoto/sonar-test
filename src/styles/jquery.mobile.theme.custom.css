@@ -1,0 +1,492 @@
+/**
+ * jquery mobile テーマ
+ */
+
+/*overlay*/
+.top{
+    background:transparent url(../images_sp/top.jpg) no-repeat scroll 0%;
+    background-size:100%;
+    width:70%;
+    position:relative;
+    left:15%;
+}
+
+/*play*/
+.box_player {
+ margin: 0 auto 50px auto;
+ width: 740px;
+ text-align: center;
+}
+
+/*font style*/
+
+.brown {
+    color: #990000;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+.orange {
+    color: #ffc000;
+}
+
+.green {
+    color: #92d050;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.skyblue {
+    color: #bbe0e3;
+}
+
+.gray {
+    color: #7f7f7f;
+}
+
+.yellow {
+    color: #ffc000;
+}
+
+.black {
+    color: #000000;
+}
+
+.small {
+    font-size: 90%;
+}
+ 
+.center {
+    text-align: center;
+}
+ 
+/**
+ * Theme : y (yshita2011)
+ */
+ 
+.ui-body-y {
+	background: #ffffff;
+	color: #000000;
+	text-shadow: none;
+	font-weight: normal;
+}
+
+.ui-body-y .ui-link-inherit {
+	color: #990000;
+}
+ 
+.ui-bar-y {
+	background: #ffffff;
+	color: #990000;
+	font-weight: normal;
+}
+.ui-bar-y,
+.ui-bar-y input,
+.ui-bar-y select,
+.ui-bar-y textarea,
+.ui-bar-y button {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+.ui-bar-y .ui-link-inherit {
+	color: #990000;
+}
+.ui-bar-y .ui-link {
+	color: #990000;
+	font-weight: normal;
+}
+.ui-bar-y h1.ui-title {
+    text-align:             left;
+    margin-left:            1em;
+}
+
+
+.ui-body-y,
+.ui-body-y input,
+.ui-body-y select,
+.ui-body-y textarea,
+.ui-body-y button {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+.ui-body-y .ui-link-inherit {
+	color: #990000;
+}
+.ui-body-y .ui-link {
+    color: #990000;
+    font-weight: normal;
+    white-space: normal;
+}
+
+.ui-btn-up-y {
+	border: 1px solid #990000;
+	background: #990000;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-btn-hover-y {
+	border: 1px solid #990000;
+	background: #990000;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-btn-down-y {
+	border: 1px solid #990000;
+	background: #990000;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-btn-up-y,
+.ui-btn-hover-y,
+.ui-btn-down-y {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/**
+ * リスト U
+ */
+ul.ui-listview .ui-bar-u {
+    border: 1px solid #92d050;
+    background: #92d050;
+    color: #fff;
+    font-weight: normal;
+}
+
+ul.ui-listview .ui-btn-up-u {
+	border: 1px solid #92d050;
+	background: #92d050;
+	font-weight: normal;
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-up-u {
+    border: 1px solid #92d050;
+    background: #92d050;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-hover-u {
+    border: 1px solid #92d050;
+    background: #92d050;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-up-u a.ui-link-inherit {
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-hover-u a.ui-link-inherit {
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-down-u {
+    border: 1px solid #92d050;
+    background: #92d050;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-down-u a.ui-link-inherit {
+	color: #fff;
+}
+
+/**
+ * リスト V
+ */
+ul.ui-listview .ui-bar-v {
+    border: 1px solid #f00;
+    background: #f00;
+    color: #fff;
+    font-weight: normal;
+}
+
+ul.ui-listview .ui-btn-up-v {
+	border: 1px solid #f00;
+	background: #f00;
+	font-weight: normal;
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-up-v {
+    border: 1px solid #f00;
+    background: #f00;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-hover-v {
+    border: 1px solid #f00;
+    background: #f00;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-up-v a.ui-link-inherit {
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-hover-v a.ui-link-inherit {
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-down-v {
+    border: 1px solid #f00;
+    background: #f00;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-down-v a.ui-link-inherit {
+	color: #fff;
+}
+
+/**
+ * リスト Z
+ */
+ul.ui-listview .ui-bar-z {
+    border: none;
+    background: #ffc000;
+    color: #fff;
+    font-weight: normal;
+}
+
+ul.ui-listview .ui-btn-up-z {
+	border: 1px solid #ffc000;
+	background: #ffc000;
+	font-weight: normal;
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-up-z {
+    border: 1px solid #ffc000;
+    background: #ffc000;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-hover-z {
+    border: 1px solid #ffc000;
+    background: #ffc000;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-up-z a.ui-link-inherit {
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-hover-z a.ui-link-inherit {
+	color: #fff;
+}
+
+ul.ui-listview .ui-btn-down-z {
+    border: 1px solid #ffc000;
+    background: #ffc000;
+    font-weight: normal;
+    color: #fff;
+}
+
+ul.ui-listview .ui-btn-down-z a.ui-link-inherit {
+	color: #fff;
+}
+
+/**
+ * ボタン(W)
+ */
+.ui-btn-up-w {
+	border: 1px solid #00f;
+	background: #fff;
+	font-weight: normal;
+	color: #00f;
+}
+.ui-btn-hover-w {
+	border: 1px solid #00f;
+	background: #fff;
+	font-weight: normal;
+	color: #00f;
+}
+.ui-btn-down-w {
+	border: 1px solid #00f;
+	background: #fff;
+	font-weight: normal;
+	color: #00f;
+}
+.ui-btn-up-w,
+.ui-btn-hover-w,
+.ui-btn-down-w {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/**
+ * ボタン(X)
+ */
+.ui-btn-up-x {
+	border: 1px solid #4597a0;
+	background: #92d050;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-btn-hover-x {
+	border: 1px solid #4597a0;
+	background: #92d050;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-btn-down-x {
+	border: 1px solid #4597a0;
+	background: #92d050;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-btn-up-x,
+.ui-btn-hover-x,
+.ui-btn-down-x {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/**
+ * ヘッダー T
+ */
+.ui-bar-t {
+    border: 1px solid       #92d050;
+    background:             #92d050;
+    color:                  #fff;
+    font-weight:            normal;
+    text-shadow:            none;
+}
+.ui-bar-t,
+.ui-bar-t input,
+.ui-bar-t select,
+.ui-bar-t textarea,
+.ui-bar-t button {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+.ui-bar-t .ui-link-inherit {
+    color:                  #92d050;
+}
+.ui-bar-t .ui-link {
+    color:                  #92d050;
+    font-weight:            normal;
+}
+.ui-bar-t h1.ui-title {
+    text-align: left;
+    margin-left: 1em;
+}
+
+/**
+ * ヘッダー S
+ */
+.ui-bar-s {
+    border: 1px solid       #ffc000;
+    background:             #ffc000;
+    color:                  #fff;
+    font-weight:            normal;
+    text-shadow:            none;
+}
+.ui-bar-s,
+.ui-bar-s input,
+.ui-bar-s select,
+.ui-bar-s textarea,
+.ui-bar-s button {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+.ui-bar-s .ui-link-inherit {
+    color:                  #ffc000;
+}
+.ui-bar-s .ui-link {
+    color:                  #ffc000;
+    font-weight:            normal;
+}
+.ui-bar-s h1.ui-title {
+    text-align: left;
+    margin-left: 1em;
+}
+
+/**
+ * Theme : e (eightranger)
+ */
+ 
+.ui-body-e {
+	background: #000000;
+	color: #ffffff;
+	text-shadow: none;
+	font-weight: normal;
+}
+
+.ui-body-e .ui-link-inherit {
+	color: #ffffff;
+}
+ 
+.ui-bar-e {
+	background: #ffffff;
+	color: #ffffff;
+	font-weight: normal;
+}
+.ui-bar-e,
+.ui-bar-e input,
+.ui-bar-e select,
+.ui-bar-e textarea,
+.ui-bar-e button {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+.ui-bar-e .ui-link-inherit {
+	color: #ffffff;
+}
+.ui-bar-e .ui-link {
+	color: #ffffff;
+	font-weight: normal;
+}
+.ui-bar-e h1.ui-title {
+    text-align:             left;
+    margin-left:            1em;
+}
+
+
+.ui-body-e,
+.ui-body-e input,
+.ui-body-e select,
+.ui-body-e textarea,
+.ui-body-e button {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+}
+.ui-body-e .ui-link-inherit {
+	color: #ffffff;
+}
+.ui-body-e .ui-link {
+    color: #ffffff;
+    font-weight: normal;
+    white-space: normal;
+}
+
+.ui-btn-up-e {
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	font-weight: normal;
+	color: #000000;
+}
+.ui-btn-hover-e {
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	font-weight: normal;
+	color: #000000;
+}
+.ui-btn-down-e {
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	font-weight: normal;
+	color: #000000;
+}
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e {
+    font-family: 'Artbank Gothic', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+

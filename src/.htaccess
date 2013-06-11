@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.php$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.png$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.gif$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.jpg$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.jpeg$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.ico$
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
+
+php_flag session.use_cookies on
+php_flag session.use_only_cookies off
+php_flag session.use_trans_sid on
+
+<FilesMatch "\.svn">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+satisfy any
+Order allow,deny
+Allow from all
+
+#AuthType Basic
+#AuthName Authentification
+#AuthUserFile /home/sites/members.johnnys-net.jp/web/.htpass
+#require valid-user
+
+AddDefaultCharset UTF-8
+

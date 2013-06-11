@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.php$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.png$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.gif$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.jpg$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.jpeg$ [OR]
+RewriteCond %{REQUEST_FILENAME} ^.*\.ico$
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
+
+#php_flag magic_quotes_gpc off
+
+<FilesMatch "\.svn">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+php_value memory_limit 500M
+php_value max_execution_time 600
+
+AddDefaultCharset UTF-8
+
+order deny,allow
+deny from all
+
+allow from 122.208.204.114
+allow from localhost
+

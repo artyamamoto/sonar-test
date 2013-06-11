@@ -1,0 +1,53 @@
+[aws:elasticbeanstalk:container:php:phpini]
+document_root=
+composer_options=
+zlib.output_compression=Off
+memory_limit=256M
+allow_url_fopen=On
+max_execution_time=60
+display_errors=Off
+
+[aws:elasticbeanstalk:application:environment]
+PARAM1=
+PARAM2=
+PARAM4=
+PARAM3=
+PARAM5=
+
+[aws:rds:dbinstance]
+DBUser=ebroot
+DBInstanceClass=db.t1.micro
+DBEngine=mysql
+DBSnapshotIdentifier=
+DBDeletionPolicy=Delete
+
+[aws:elasticbeanstalk:hostmanager]
+LogPublicationControl=false
+
+[aws:autoscaling:launchconfiguration]
+InstanceType=t1.micro
+EC2KeyName=testKeyPairEB
+SecurityGroups=sg-654d5509
+
+[aws:autoscaling:asg]
+MaxSize=4
+MinSize=1
+Custom Availability Zones=
+
+[aws:ec2:vpc]
+Subnets=subnet-5254b73a
+VPCId=vpc-9955b6f1
+ELBSubnets=subnet-7454b71c
+ELBScheme=public
+DBSubnets=subnet-5254b73a,subnet-2654b74e
+
+[aws:elasticbeanstalk:application]
+Application Healthcheck URL=
+
+[aws:elasticbeanstalk:monitoring]
+Automatically Terminate Unhealthy Instances=true
+
+[aws:elasticbeanstalk:sns:topics]
+Notification Endpoint=
+Notification Protocol=email
+

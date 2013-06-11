@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Acl
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Acl/Exception.php
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Acl/Role.php
+END
+Resource.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Acl/Resource.php
+END

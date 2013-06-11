@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata
+END
+Spreadsheets.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Spreadsheets.php
+END
+Exif.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Exif.php
+END
+YouTube.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/YouTube.php
+END
+HttpAdapterStreamingProxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/HttpAdapterStreamingProxy.php
+END
+MimeBodyString.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/MimeBodyString.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Entry.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Feed.php
+END
+HttpAdapterStreamingSocket.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/HttpAdapterStreamingSocket.php
+END
+MediaMimeStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/MediaMimeStream.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Query.php
+END
+Health.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Health.php
+END
+ClientLogin.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/ClientLogin.php
+END
+Calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Calendar.php
+END
+Geo.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Geo.php
+END
+Gapps.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Gapps.php
+END
+AuthSub.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/AuthSub.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Extension.php
+END
+Photos.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Photos.php
+END
+Books.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Books.php
+END
+HttpClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/HttpClient.php
+END
+Media.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Media.php
+END
+App.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/App.php
+END
+Gbase.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Gbase.php
+END
+DublinCore.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/DublinCore.php
+END
+MimeFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/MimeFile.php
+END
+Docs.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/Gdata/Docs.php
+END

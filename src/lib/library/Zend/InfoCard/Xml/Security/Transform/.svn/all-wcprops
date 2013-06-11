@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/InfoCard/Xml/Security/Transform
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/InfoCard/Xml/Security/Transform/Exception.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/InfoCard/Xml/Security/Transform/Interface.php
+END
+EnvelopedSignature.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/InfoCard/Xml/Security/Transform/EnvelopedSignature.php
+END
+XmlExcC14N.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/eightranger/!svn/ver/7/eb/lib/library/Zend/InfoCard/Xml/Security/Transform/XmlExcC14N.php
+END

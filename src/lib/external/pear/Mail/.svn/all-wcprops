@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail
+END
+mock.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/mock.php
+END
+null.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/null.php
+END
+mimeDecode.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/mimeDecode.php
+END
+sendmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/sendmail.php
+END
+mimePart.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/mimePart.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/mail.php
+END
+smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/smtp.php
+END
+RFC822.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/RFC822.php
+END
+Mime.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/Mime.php
+END
+smtpmx.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/eightranger/!svn/ver/7/eb/lib/external/pear/Mail/smtpmx.php
+END

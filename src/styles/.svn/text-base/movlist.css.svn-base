@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*BODY*/
+a { text-decoration : none; }
+
+
+/*@FONT-SIZE SETTING
+========================================================*/
+body{font-family: 'Artbank Gothic', "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+ color: #666;
+ -webkit-text-size-adjust: none;
+ letter-spacing: 0.1em;
+ line-height: 1em}
+h1 { font-size : 24px;}
+h2 { font-size : 14px; letter-spacing : 1.1;}
+
+
+/*@purchase_index
+========================================================*/
+
+#movleft {
+ margin: 0 auto 48px;
+ width: 300px
+
+}
+
+#movleft .checkall{
+ margin-bottom:32px;
+
+}
+
+
+#movleft .date{
+ color: red;
+ font-family:
+}
+
+
+#movleft dl{
+ margin-bottom:0px;
+
+}
+
+
+#movleft dt{
+ color: #A08747;
+ font-weight:bold;
+ margin-bottom:4px;
+ line-height:1.2
+ width:320px
+
+}
+
+
+#movleft dd{
+ font-size:12px; 
+ margin-bottom:14px
+
+}
+
+
+#movleft dd .text{
+ color: #333; 
+ margin-left:10px;
+
+}
+
+
+/*@purchase_select
+========================================================*/
+#main #main_title {
+ margin-bottom:32px;
+}
+
+h2 {
+ margin:0 auto 32px;
+ width:600px
+ 
+}
+
+#movlist {
+ margin: 0 auto 48px;
+ width: 600px
+
+}
+
+#movlist .checkall{
+ margin-bottom:32px;
+
+}
+
+
+#movlist .date{
+ color: red;
+ font-family:
+}
+
+
+#movlist dl{
+ margin-bottom:32px;
+
+}
+
+
+#movlist dt{
+ color: #A08747;
+ font-weight:bold;
+ border-bottom: 3px #A08747 dotted;
+ margin-bottom:4px;
+ line-height:1.2
+
+}
+
+
+#movlist dd{
+ font-size:12px; 
+ margin-bottom:14px
+
+}
+
+
+#movlist dd .text{
+ color: #333; 
+ margin-left:10px;
+
+}
+
+#main #purchace{
+ margin:0 212px 56px;
+ width:162px
+
+
+/*@TOP
+========================================================*/
+#main #select {
+ font-size: 12px;
+ margin:24px 0 24px 60px;
+ 
+}
+
+#main #select a{
+ color: #A68646;
+ border-bottom:1px #A08747 dotted
+ 
+}
+
+
+/*@detail
+========================================================*/
+#mid .select {
+ font-size: 12px;
+ color: #A68646;
+ width: 210px;
+ margin: 0 auto 24px auto;
+  }
+
+#mid .select a{
+ color: #A68646;
+ border-bottom:1px #A08747 dotted
+ 
+}
+
+
