@@ -25,7 +25,6 @@ class Ab_Device
     public function getTypeString()
     {
         $config = Zend_Registry::getInstance()->config;
-
         if($this->isMobile()) {
             $ret = $config->device->type->mobile;
         } elseif($this->isSmartphone()) {

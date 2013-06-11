@@ -19,7 +19,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-		$_SERVER["HTTP_USER_AGENT"] = "Mozilla/5.0 (Linux; U; Android 1.6; ja-jp; IS01 Build/S2151) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1";
+		$this->_user_agent = $_SERVER["HTTP_USER_AGENT"] = 
+				"Mozilla/5.0 (Linux; U; Android 1.6; ja-jp; IS01 Build/S2151) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1";
         $this->object = Ab_Device::getInstance();
     }
 
@@ -46,10 +47,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testGetTypeString()
     {
-//		$ret = $this->object->getTypeString();
-//var_dump($ret);
-//die('hoge');
-//		$this->assertEquals("", $ret);
+		$ret = $this->object->getTypeString();
+		$this->assertEquals("sp", $ret);
     }
 
     /**
@@ -68,6 +67,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testIsAndroid()
     {
+		$ret = $this->object->isAndroid();
+		$this->assertTrue($ret);
     }
 
     /**
@@ -76,6 +77,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testIsIphone()
     {
+		$ret = $this->object->isIphone();
+		$this->assertFalse($ret);
     }
 
     /**
@@ -84,6 +87,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testIsMobile()
     {
+		$ret = $this->object->isMobile();
+		$this->assertFalse($ret);
     }
 
     /**
@@ -92,6 +97,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testIsDoCoMo()
     {
+		$ret = $this->object->isDoCoMo();
+		$this->assertFalse($ret);
     }
 
     /**
@@ -100,6 +107,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testIsEZweb()
     {
+		$ret = $this->object->isEZweb();
+		$this->assertFalse($ret);
     }
 
     /**
@@ -108,6 +117,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testIsSoftBank()
     {
+		$ret = $this->object->isSoftbank();
+		$this->assertFalse($ret);
     }
 
     /**
@@ -116,6 +127,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testGetCarrier()
     {
+		$ret = $this->object->getCarrier();
+		$this->assertEquals("NonMobile",$ret);
     }
 
     /**
@@ -124,6 +137,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testGetModel()
     {
+		$ret = $this->object->getModel();
+		$this->assertNull($ret);
     }
 
     /**
@@ -132,6 +147,8 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testGetUid()
     {
+		$ret = $this->object->getUid();
+		$this->assertNull($ret);
     }
 
     /**
@@ -140,5 +157,7 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     public function testGetUserAgent()
     {
+		$ret = $this->object->getUserAgent();
+		$this->assertEquals($this->_user_agent, $ret);
     }
 }

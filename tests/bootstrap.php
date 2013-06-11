@@ -21,4 +21,31 @@ define ("APPLICATION_ENVIRONMENT", "development");
 
 require_once dirname(__FILE__).'/../src/lib/application/config/init.php';
 
+$application = new Ab_Application();
+// $application->run();
+// $application->init();
+
+class BootstrapTmp { 
+	function init() {
+        $config = new Zend_Config_Ini(
+            CONFIG_FILE,
+            array(APPLICATION_MODE, APPLICATION_ENVIRONMENT)
+        );
+
+        /**
+         * Set timezone
+         */
+        date_default_timezone_set($config->system->timezone);
+
+
+        /**
+         * Set registry
+         */
+        $registry = Zend_Registry::getInstance();
+        $registry->config = $this->_config = $config;
+        $registry->logger = $logger;
+	}
+}
+$Bootstrap = new BootstrapTmp();
+$Bootstrap->init();
 
