@@ -1,4 +1,8 @@
 <?php
+if (defined("APPLICATION_MODE"))
+	return;
+
+
 define("APPLICATION_MODE", "front");
 /*****
 $stageFqdn = array(

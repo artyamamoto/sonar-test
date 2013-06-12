@@ -1,6 +1,8 @@
 <?php
 
+
 require_once "PHPUnit/Framework/TestSuite.php";
+require_once dirname(__FILE__).'/bootstrap.php';
 require_once dirname(__FILE__).'/Ab_DeviceTest.php';
 
 class AllTest {
