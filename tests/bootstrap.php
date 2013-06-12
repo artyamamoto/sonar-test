@@ -43,7 +43,7 @@ class BootstrapTmp {
          */
         $registry = Zend_Registry::getInstance();
         $registry->config = $this->_config = $config;
-        $registry->logger = $logger;
+        //$registry->logger = $logger;
 	}
 }
 $Bootstrap = new BootstrapTmp();
