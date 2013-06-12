@@ -78,7 +78,7 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
     public function testIsIphone()
     {
 		$ret = $this->object->isIphone();
-		$this->assertFalse($ret);
+		$this->assertTrue($ret); // wrong sample
     }
 
     /**
