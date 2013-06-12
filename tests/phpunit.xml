@@ -7,10 +7,17 @@
         <directory>../src/lib/library</directory>
     </testsuite>
 -->
+	<testsuites>
+		<testsuite name="Ab">
+			<file>Ab_DeviceTest.php</file>
+		</testsuite>
+	</testsuites>
+<!--
     <filter>
         <whitelist>
             <directory suffix=".php">../src/lib/library/Zend</directory>
         </whitelist>
     </filter>
+-->
 </phpunit>
 
