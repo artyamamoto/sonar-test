@@ -29,6 +29,38 @@ $application = new Ab_Application();
 // $application->run();
 // $application->init();
 
+class TestConfig {
+	public static $db;
+	function init() {
+		switch(true) {
+			case strpos(php_uname(),'yamamotokazuaki') !== false:
+				TestConfig::$db = array(
+					"host" => "localhost" ,
+					"username" => "root" , 
+					"password" => "" , 
+					"dbname" => "phpunit" ,
+				);
+			break;
+			default:
+				TestConfig::$db = array(
+					"host" => "sonar-instance.ct6ddgfemi2m.ap-northeast-1.rds.amazonaws.com" ,
+					"username" => "sonar" , 
+					"password" => "sonar1234" , 
+					"dbname" => "phpunit" ,
+				);
+			break;
+		}
+		$SQL = sprintf('mysql -u %s -h %s ' , self::$db["username"] , self::$db["host"] );
+		if (!empty(self::$db["password"]))
+			$SQL .= "-p ".self::$db["password"]." ";
+		$SQL .= sprintf('%s < %s/datas/table.sql' , 
+						self::$db["dbname"]  , dirname(__FILE__) );
+		
+		shell_exec($SQL);
+	}
+}
+TestConfig::init();
+
 class BootstrapTmp { 
 	function init() {
         $config = new Zend_Config_Ini(
@@ -48,6 +80,19 @@ class BootstrapTmp {
         $registry = Zend_Registry::getInstance();
         $registry->config = $this->_config = $config;
         //$registry->logger = $logger;
+
+
+		/***
+		 * init Database 
+		 **/
+        $dbAdapter = Zend_Db::factory("mysqli",
+			TestConfig::$db + array(
+                "charset"  => "UTF8",
+                "adapterNamespace" => "Zend_Db_Adapter",
+        	));
+        Ab_Db_Table::setDefaultAdapter($dbAdapter);
+        $registry->dbAdapter = $dbAdapter;
+
 	}
 }
 $Bootstrap = new BootstrapTmp();

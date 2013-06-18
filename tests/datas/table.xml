@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="eight">
+	<table_structure name="action">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="source" Type="text" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="comment" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="release_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="release_status" Type="int(4)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="action" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="action" Non_unique="1" Key_name="code" Seq_in_index="1" Column_name="code" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="action" Engine="InnoDB" Version="10" Row_format="Compact" Rows="13" Avg_row_length="3780" Data_length="49152" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="14" Create_time="2013-06-18 06:02:04" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="action_release">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="source" Type="text" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="comment" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="action_release" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="action_release" Engine="InnoDB" Version="10" Row_format="Compact" Rows="13" Avg_row_length="3780" Data_length="49152" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2013-06-18 06:02:04" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="administrator">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="mail_address" Type="varchar(200)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="password" Type="varchar(200)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="role" Type="int(11)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="session_id" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="valid_flag" Type="int(2)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="administrator" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="administrator" Engine="InnoDB" Version="10" Row_format="Compact" Rows="9" Avg_row_length="1820" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="12" Create_time="2013-06-18 06:02:04" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="applicant">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="uid" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="mail_address" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="serial" Type="varchar(255)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="data" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="carrier" Type="int(4)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="ip_address" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="user_agent" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="app_version" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="applicant" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="39255" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="applicant" Non_unique="1" Key_name="hash" Seq_in_index="1" Column_name="hash" Collation="A" Cardinality="39255" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="applicant" Non_unique="1" Key_name="serial" Seq_in_index="1" Column_name="serial" Collation="A" Cardinality="39255" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="applicant" Engine="InnoDB" Version="10" Row_format="Compact" Rows="39255" Avg_row_length="280" Data_length="11026432" Max_data_length="0" Index_length="5275648" Data_free="4194304" Auto_increment="40133" Create_time="2013-06-18 06:02:04" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="carrier">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="carrier" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="carrier" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:05" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="color">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="value" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="color" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="13" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="color" Engine="InnoDB" Version="10" Row_format="Compact" Rows="13" Avg_row_length="1260" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="57" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="delivery_mail_magazine">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="delivery_mail_magazine" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="delivery_mail_magazine" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="device">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="device" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="device" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="enquete_log">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="enquete_log" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="enquete_log" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="mail">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="mail" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="mail" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="49590" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="mail" Non_unique="1" Key_name="hash" Seq_in_index="1" Column_name="hash" Collation="A" Cardinality="49590" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="mail" Engine="InnoDB" Version="10" Row_format="Compact" Rows="49590" Avg_row_length="95" Data_length="4734976" Max_data_length="0" Index_length="3686400" Data_free="4194304" Auto_increment="49612" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="mail_address_temporary">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="mail_address_temporary" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="mail_address_temporary" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="mail_template">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="from" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="subject" Type="text" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="body" Type="text" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="release_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="release_status" Type="int(4)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="mail_template" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="mail_template" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="2" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="mail_template_release">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="from" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="subject" Type="text" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="body" Type="text" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="mail_template_release" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="mail_template_release" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="member">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="uid" Type="varbinary(100)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="serial" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="seat1" Type="varchar(100)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="seat2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="seat3" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="seat4" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="gate" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="mail" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="name" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="kname" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="zip" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pref" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_serial" Type="varchar(100)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="pair_seat1" Type="varchar(100)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="pair_seat2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_seat3" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_seat4" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="address1" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="address2" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="phone" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="age" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_name" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_kname" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_zip" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_pref" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_address1" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_address2" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_phone" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_age" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="ua" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="comment" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="target_date" Type="date" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_pair" Type="int(2) unsigned" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="status" Type="int(11)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="check_gate" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="valid_flag" Type="int(2) unsigned" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="register_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="delete_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="member" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="hash" Seq_in_index="1" Column_name="hash" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="serial" Seq_in_index="1" Column_name="serial" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="pair_serial" Seq_in_index="1" Column_name="pair_serial" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="uid" Seq_in_index="1" Column_name="uid" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="seat1" Seq_in_index="1" Column_name="seat1" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="seat1" Seq_in_index="2" Column_name="seat2" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="seat1" Seq_in_index="3" Column_name="seat3" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="seat1" Seq_in_index="4" Column_name="seat4" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="pair_seat1" Seq_in_index="1" Column_name="pair_seat1" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="pair_seat1" Seq_in_index="2" Column_name="pair_seat2" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="pair_seat1" Seq_in_index="3" Column_name="pair_seat3" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="member" Non_unique="1" Key_name="pair_seat1" Seq_in_index="4" Column_name="pair_seat4" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="member" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="98304" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="member_point_log">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<key Table="member_point_log" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="member_point_log" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:06" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="page">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="action_code" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="content_type" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="source_mobile" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="source_smartphone" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_close" Type="int(2)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="release_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="release_status" Type="int(4)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="page" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="27" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="page" Non_unique="1" Key_name="code" Seq_in_index="1" Column_name="code" Collation="A" Cardinality="27" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="page" Engine="InnoDB" Version="10" Row_format="Compact" Rows="27" Avg_row_length="8495" Data_length="229376" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="142" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="page_release">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="action_code" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="content_type" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="source_mobile" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="source_smartphone" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_close" Type="int(2)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="page_release" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="27" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="page_release" Engine="InnoDB" Version="10" Row_format="Compact" Rows="27" Avg_row_length="8495" Data_length="229376" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="registration">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="target" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="uid" Type="varbinary(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="mail_address" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="data" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="carrier" Type="int(4)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="ip_address" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="user_agent" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="app_version" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="registration" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="23" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="registration" Non_unique="1" Key_name="uid" Seq_in_index="1" Column_name="uid" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="registration" Non_unique="1" Key_name="hash" Seq_in_index="1" Column_name="hash" Collation="A" Cardinality="23" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="registration" Engine="InnoDB" Version="10" Row_format="Compact" Rows="23" Avg_row_length="712" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="24" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="registration2">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="target" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="uid" Type="varbinary(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="mail_address" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="data" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="carrier" Type="int(4)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="ip_address" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="user_agent" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="app_version" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="registration2" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="289" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="registration2" Non_unique="1" Key_name="uid" Seq_in_index="1" Column_name="uid" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="registration2" Non_unique="1" Key_name="hash" Seq_in_index="1" Column_name="hash" Collation="A" Cardinality="289" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="registration2" Engine="InnoDB" Version="10" Row_format="Compact" Rows="289" Avg_row_length="340" Data_length="98304" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="290" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="role">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="bit" Type="int(11)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="valid_flag" Type="int(2)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="role" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="role" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="serial">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="file_name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="serial" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="serial" Engine="InnoDB" Version="10" Row_format="Compact" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="3" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="serial_number">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="serial_id" Type="int(11)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="n" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<key Table="serial_number" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="151110" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="serial_number" Non_unique="1" Key_name="fk_serial_number_serial" Seq_in_index="1" Column_name="serial_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="serial_number" Non_unique="1" Key_name="n" Seq_in_index="1" Column_name="n" Collation="A" Cardinality="151110" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="serial_number" Engine="InnoDB" Version="10" Row_format="Compact" Rows="151110" Avg_row_length="45" Data_length="6832128" Max_data_length="0" Index_length="9469952" Data_free="4194304" Auto_increment="151001" Create_time="2013-06-18 06:02:07" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="serial_use">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="target" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="n" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="uid" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="params" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="serial_use" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="83536" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="serial_use" Non_unique="1" Key_name="n" Seq_in_index="1" Column_name="n" Collation="A" Cardinality="83536" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="serial_use" Non_unique="1" Key_name="serial_use_idx1" Seq_in_index="1" Column_name="code" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="serial_use" Non_unique="1" Key_name="serial_use_idx1" Seq_in_index="2" Column_name="uid" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="serial_use" Non_unique="1" Key_name="create_date" Seq_in_index="1" Column_name="create_date" Collation="A" Cardinality="83536" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="serial_use" Engine="InnoDB" Version="10" Row_format="Compact" Rows="83536" Avg_row_length="94" Data_length="7880704" Max_data_length="0" Index_length="7913472" Data_free="4194304" Auto_increment="83768" Create_time="2013-06-18 06:02:09" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="setting">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="value" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="setting" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="setting" Engine="InnoDB" Version="10" Row_format="Compact" Rows="5" Avg_row_length="3276" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="6" Create_time="2013-06-18 06:02:11" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="site">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="fqdn" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="directory" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="valid_flag" Type="int(2)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="site" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="site" Engine="InnoDB" Version="10" Row_format="Compact" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2013-06-18 06:02:11" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="uid">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="mail_address" Type="varchar(255)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="course" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="name1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="name2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="kname1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="kname2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="postcode" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="address1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="address2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="prefecture" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="age" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="sex" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="tel" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair" Type="int(2)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="pair_name1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_name2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_kname1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_kname2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_postcode" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_address1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_address2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_prefecture" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_age" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_sex" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_tel" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_uid_changed" Type="int(2)" Null="YES" Key="" Default="0" Extra="" Comment="" />
+		<field Field="uid" Type="varbinary(255)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="default_uid" Type="varbinary(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="serial1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="serial2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_checked" Type="int(2)" Null="YES" Key="" Default="0" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="uid" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="24" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="uid" Non_unique="1" Key_name="uid" Seq_in_index="1" Column_name="uid" Collation="A" Cardinality="2" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="uid" Non_unique="1" Key_name="mail_address" Seq_in_index="1" Column_name="mail_address" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="uid" Engine="InnoDB" Version="10" Row_format="Compact" Rows="24" Avg_row_length="682" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="25" Create_time="2013-06-18 06:02:11" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_structure name="uid2">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="mail_address" Type="varchar(255)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="course" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="name1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="name2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="kname1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="kname2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="postcode" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="address1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="address2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="prefecture" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="age" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="sex" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="tel" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair" Type="int(2)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="pair_name1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_name2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_kname1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_kname2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_postcode" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_address1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_address2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_prefecture" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_age" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_sex" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="pair_tel" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_uid_changed" Type="int(2)" Null="YES" Key="" Default="0" Extra="" Comment="" />
+		<field Field="uid" Type="varbinary(255)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="default_uid" Type="varbinary(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="hash" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="serial1" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="serial2" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_checked" Type="int(2)" Null="YES" Key="" Default="0" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="uid2" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="307" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="uid2" Non_unique="1" Key_name="uid" Seq_in_index="1" Column_name="uid" Collation="A" Cardinality="2" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="uid2" Non_unique="1" Key_name="mail_address" Seq_in_index="1" Column_name="mail_address" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="uid2" Engine="InnoDB" Version="10" Row_format="Compact" Rows="307" Avg_row_length="266" Data_length="81920" Max_data_length="0" Index_length="32768" Data_free="0" Auto_increment="308" Create_time="2013-06-18 06:02:11" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+</database>
+</mysqldump>

@@ -1,0 +1,3207 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="eight">
+	<table_structure name="page">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="code" Type="varchar(100)" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="action_code" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="content_type" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="source_mobile" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="source_smartphone" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="is_close" Type="int(2)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="release_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="release_status" Type="int(4)" Null="NO" Key="" Default="1" Extra="" Comment="" />
+		<field Field="create_date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="update_date" Type="datetime" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="page" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="27" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="page" Non_unique="1" Key_name="code" Seq_in_index="1" Column_name="code" Collation="A" Cardinality="27" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="page" Engine="InnoDB" Version="10" Row_format="Compact" Rows="27" Avg_row_length="8495" Data_length="229376" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="142" Create_time="2013-06-18 07:39:52" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="page">
+	<row>
+		<field name="id">115</field>
+		<field name="name">TOPページ</field>
+		<field name="code">index</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+関ｼﾞｬﾆ∞&lt;br /&gt;
+DVD&amp;Blu-ray Disc&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}｢ｴｲﾄﾚﾝｼﾞｬｰ｣{{/font}}&lt;br /&gt;
+“あなたもﾋｰﾛｰに!”&lt;br /&gt;
+購入者ﾌﾟﾚｾﾞﾝﾄｷｬﾝﾍﾟｰﾝ!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;{{$base_url}}/img/view2/file/top&quot; /&gt;&lt;br /&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;marquee bgcolor=&quot;#FED230&quot; loop=&quot;16&quot;&gt;{{font color=&quot;black&quot;}}DVD&amp;Blu-ray Disc｢ｴｲﾄﾚﾝｼﾞｬｰ｣購入者ﾌﾟﾚｾﾞﾝﾄｷｬﾝﾍﾟｰﾝ実施中!!{{/font}}&lt;/marquee&gt;&lt;br /&gt;
+&lt;br /&gt;
+関ｼﾞｬﾆ∞のDVD&amp;Blu-ray Disc{{font color=&quot;yellow&quot;}}｢ｴｲﾄﾚﾝｼﾞｬｰ｣{{/font}}をお買い上げ頂き､誠にありがとうございます｡発売を記念して購入された方全員に{{font color=&quot;sky_blue&quot;}}“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ{{/font}}をﾀﾞｳﾝﾛｰﾄﾞしていただけます!!&lt;br /&gt;
+さらに､ﾀﾞﾌﾞﾙﾁｬﾝｽとして{{font color=&quot;orange&quot;}}“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙ{{/font}}を抽選で300名様にﾌﾟﾚｾﾞﾝﾄ致します!!&lt;br /&gt;
+ふるってご応募ください!!&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;purple&quot;}}【対象商品】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ●ﾋｰﾛｰ協会認定完全版【完全生産限定】DVD&lt;br /&gt;
+    →TDV23004D&lt;br /&gt;
+    ●通常版DVD&lt;br /&gt;
+    →TDV23005D &lt;br /&gt;
+    ●ﾋｰﾛｰ協会認定完全版【完全生産限定】Blu-ray&lt;br /&gt;
+    →TBR23002D&lt;br /&gt;
+    ●通常版Blu-ray&lt;br /&gt;
+    →TBR23003D&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;green&quot;}}【着ﾎﾞｲｽﾀﾞｳﾝﾛｰﾄﾞ&amp;特製ﾏﾌﾗｰﾀｵﾙ応募締切】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}2013/2/28(木)24:00まで{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/flow&quot;&gt;{{font color=&quot;red&quot;}}【ｷｬﾝﾍﾟｰﾝの流れ】{{/font}}&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;gold&quot;}}【“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ(全7種類)】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    商品に封入されているﾕｰｻﾞｰｺｰﾄﾞ1つにつき､“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ(全7種類)から､お好きな着ﾎﾞｲｽを1つﾀﾞｳﾝﾛｰﾄﾞしていただけます｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;center&gt;
+&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/voice_notice&quot;&gt;{{font color=&quot;gold&quot;}}【 “ｴｲﾄﾚﾝｼﾞｬｰ”&lt;br /&gt;
+名ｾﾘﾌ着ﾎﾞｲｽ】&lt;br /&gt;
+→ﾀﾞｳﾝﾛｰﾄﾞﾍﾟｰｼﾞへ←{{/font}}&lt;/a&gt;&lt;br /&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;gold&quot;}}【“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙ】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    商品に封入されているﾕｰｻﾞｰｺｰﾄﾞを1つと必要事項を､こちらのｻｲﾄから入力してご応募いただいた方の中から抽選で“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙをﾌﾟﾚｾﾞﾝﾄ!&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange&quot;}}●{{/font}}特製ﾏﾌﾗｰﾀｵﾙ&lt;br /&gt;
+&lt;center&gt;&lt;img src=&quot;{{$base_url}}/img/view2/file/towel&quot; /&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;center&gt;
+&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/applicant_notice&quot;&gt;{{font color=&quot;gold&quot;}}【 “ｴｲﾄﾚﾝｼﾞｬｰ”&lt;br /&gt;
+特製ﾏﾌﾗｰﾀｵﾙ】&lt;br /&gt;
+→応募ﾍﾟｰｼﾞへ←{{/font}}&lt;/a&gt;&lt;br /&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq&quot;&gt;よくある質問と答え&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}着ﾎﾞｲｽ/応募/当選について{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/contact/form&quot;&gt;お問合わせ&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}※当ｷｬﾝﾍﾟｰﾝに関するお問合わせは､上記窓口以外ではお受けしておりませんので､ご注意ください｡{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p class=&quot;center&quot;&gt;
+            関ジャニ∞&lt;br /&gt;
+            DVD&amp;Blu-ray Disc&lt;br /&gt;
+            {{font color=&quot;yellow&quot;}}「エイトレンジャー」{{/font}}&lt;br /&gt;
+            “あなたもヒーローに!”&lt;br /&gt;
+            購入者プレゼントキャンペーン!!&lt;br /&gt;
+            &lt;img src=&quot;{{$request-&gt;getBaseUrl()}}/images_sp/blank.gif&quot; style=&quot;width:232px;height:232px;background:url('{{$request-&gt;getBaseUrl()}}/img/view2/file/top');background-size:232px 232px&quot; /&gt;
+        &lt;/p&gt;
+        &lt;marquee bgcolor=&quot;#FED230&quot; loop=&quot;16&quot;&gt;{{font color=&quot;black&quot;}}DVD&amp;Blu-ray Disc「エイトレンジャー」購入者プレゼントキャンペーン実施中!!{{/font}}&lt;/marquee&gt;&lt;br /&gt;
+        &lt;div&gt;
+            &lt;br /&gt;
+            関ジャニ∞のDVD&amp;Blu-ray Disc {{font color=&quot;yellow&quot;}}「エイトレンジャー」{{/font}}をお買い上げ頂き、誠にありがとうございます。発売を記念して購入された方全員に{{font color=&quot;sky_blue&quot;}}“エイトレンジャー”名セリフ着ボイス{{/font}}をご試聴いただけます!!&lt;br /&gt;
+            さらに、ダブルチャンスとして{{font color=&quot;orange&quot;}}“エイトレンジャー”特製マフラータオル{{/font}}を抽選で300名様にプレゼント致します!!&lt;br /&gt;
+            ふるってご応募ください!!&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}【対象商品】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                ●ヒーロー協会認定完全版【完全生産限定】DVD&lt;br /&gt;
+                → TDV23004D&lt;br /&gt;
+                ●通常版DVD&lt;br /&gt;
+                →TDV23005D &lt;br /&gt;
+                ●ヒーロー協会認定完全版【完全生産限定】Blu-ray&lt;br /&gt;
+                →TBR23002D&lt;br /&gt;
+                ●通常版Blu-ray&lt;br /&gt;
+                →TBR23003D&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;green&quot;}}【着ボイス試聴期間&amp;特製マフラータオル応募締切】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}2013/2/28(木)24:00まで{{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;ul data-role=&quot;listview&quot; data-theme=&quot;z&quot; style=&quot;margin: 1em -15px;&quot;&gt;
+                &lt;li style=&quot;background: #000; border: 1px solid #fff;&quot;&gt;&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/flow&quot; style=&quot;color: #fff;&quot;&gt;【キャンペーンの流れ】&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            {{font color=&quot;gold&quot;}}【“エイトレンジャー”名セリフ着ボイス(全7種類)】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                商品に封入されているユーザーコード1つにつき、“エイトレンジャー”名セリフ着ボイス(全7種類)から、お好きな着ボイスを1つご試聴いただけます。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;span class=&quot;center&quot;&gt;
+            &lt;br /&gt;{{a link=&quot;/page/voice_notice&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;gold&quot; border=&quot;gold&quot;}}【 “エイトレンジャー”&lt;br /&gt;名セリフ着ボイス】&lt;br /&gt;→試聴ページへ←{{/a}}&lt;br /&gt;
+        &lt;/span&gt;
+        &lt;div&gt;
+            {{font color=&quot;gold&quot;}}【“エイトレンジャー”特製マフラータオル】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                商品に封入されているユーザーコードを1つと必要事項を、こちらのサイトから入力してご応募いただいた方の中から抽選で“エイトレンジャー”特製マフラータオルをプレゼント!&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange&quot;}}●{{/font}}特製マフラータオル&lt;br /&gt;
+            &lt;p class=&quot;center&quot;&gt;
+                &lt;img src=&quot;{{$request-&gt;getBaseUrl()}}/images_sp/blank.gif&quot; style=&quot;width:287px;height:88px;background:url('{{$base_url}}/img/view2/file/towel'); background-repeat:no-repeat; background-size:287px 88px&quot; /&gt;&lt;br /&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;span class=&quot;center&quot;&gt;
+            &lt;br /&gt;{{a link=&quot;/page/applicant_notice&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;gold&quot; border=&quot;gold&quot;}}【 “エイトレンジャー”&lt;br /&gt;特製マフラータオル】&lt;br /&gt;→応募ページへ←{{/a}}&lt;br /&gt;
+        &lt;/span&gt;
+        &lt;hr style=&quot;margin: 1em -15px;&quot;&gt;
+        &lt;div&gt;
+            &lt;br /&gt;{{a link=&quot;/page/faq#voice&quot; type=&quot;button&quot; color=&quot;black&quot; bgcolor=&quot;orange_yellow&quot; border=&quot;gold&quot;}}よくある質問と答え&lt;br /&gt;{{font size=&quot;small&quot;}}着ボイス/応募/当選について{{/font}}{{/a}}&lt;br /&gt;
+            &lt;br /&gt;{{a link=&quot;/contact/form&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;deep_green&quot; border=&quot;deep_green&quot;}}お問い合わせ{{/a}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}{{font color=&quot;red&quot;}}※{{/font}}当キャンペーンに関するお問い合わせは、上記窓口以外ではお受けしておりませんので、ご注意ください。{{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;  style=&quot;color: white;&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 10:59:51</field>
+		<field name="update_date">2013-01-24 10:00:04</field>
+	</row>
+	<row>
+		<field name="id">116</field>
+		<field name="name">キャンペーンの流れ</field>
+		<field name="code">flow</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;ｷｬﾝﾍﾟｰﾝの流れ
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;sky_blue&quot;}}【“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ】{{/font}}&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}(1)ﾀﾞｳﾝﾛｰﾄﾞﾍﾟｰｼﾞへ進む{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ｷｬﾝﾍﾟｰﾝ特設ｻｲﾄ下部の【“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ】ﾀﾞｳﾝﾛｰﾄﾞﾍﾟｰｼﾞにｱｸｾｽ後､&lt;注意事項&gt;を必ずご確認ください。
+{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}(2)ﾕｰｻﾞｰｺｰﾄﾞ認証{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ﾕｰｻﾞｰｺｰﾄﾞを{{font color=&quot;orange_yellow&quot;}}【1つ】{{/font}}入力し､“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽﾀﾞｳﾝﾛｰﾄﾞ画面へお進みください｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}(3)“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}携帯電話の仕様に従ってﾀﾞｳﾝﾛｰﾄﾞしてください｡{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange&quot;}}【“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙ】{{/font}}&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}(1)応募ﾍﾟｰｼﾞへ進む{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ｷｬﾝﾍﾟｰﾝ特設ｻｲﾄ下部の【“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙ】応募ﾍﾟｰｼﾞにｱｸｾｽ後、&lt;注意事項&gt;を必ずご確認ください｡&lt;br /&gt;
+    ↓&lt;br /&gt;
+    ﾒｰﾙ送信画面が表示されますので件名･本文に何も入力せずに空ﾒｰﾙを送信ください｡&lt;br /&gt;
+    ※ﾒｰﾙ受信拒否設定をされている方は､{{font color=&quot;red&quot;}}js-cp.jp(ﾄﾞﾒｲﾝ){{/font}}を受信できるよう､設定をお願いします｡&lt;br /&gt;
+    ↓&lt;br /&gt;
+    折り返し[応募受付ﾌｫｰﾑへのURL]を記載したﾒｰﾙを送信致します｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+
+
+{{font color=&quot;orange_yellow&quot;}}(2)ﾕｰｻﾞｰｺｰﾄﾞ認証{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}ﾕｰｻﾞｰｺｰﾄﾞを{{font color=&quot;orange_yellow&quot;}}【1つ】{{/font}}入力し､応募受付ﾌｫｰﾑへお進みください｡{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}(3)応募受付ﾌｫｰﾑ{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}応募受付ﾌｫｰﾑへお進み頂き､お客様情報をご入力ください｡{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}(4)応募受付完了{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}｢応募受付完了｣と表示されれば受付完了となります｡{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}{{font color=&quot;red&quot;}}※{{/font}}｢応募受付完了のお知らせ｣をﾒｰﾙにて配信しております｡{{/font}}&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;キャンペーンの流れ&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{font color=&quot;sky_blue&quot;}}【“エイトレンジャー”名セリフ着ボイス】{{/font}}&lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}(1)試聴ページへ進む{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                キャンペーン特設サイト下部の【“エイトレンジャー”名セリフ着ボイス】試聴ページにアクセス後、&lt;注意事項&gt;を必ずご確認頂き、試聴ページへお進みください。&lt;br /&gt;
+            {{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}(2)ユーザーコード認証{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                商品に封入されているユーザーコードを{{font color=&quot;orange_yellow&quot;}}【1つ】{{/font}}入力し、“エイトレンジャー”名セリフ着ボイス試聴画面へお進みください。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}(3)“エイトレンジャー”名セリフ着ボイス{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}携帯電話の仕様に従って再生してください。{{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange&quot;}}【“エイトレンジャー”特製マフラータオル】{{/font}}&lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}(1)応募ページへ進む{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                キャンペーン特設サイト下部の【“エイトレンジャー”特製マフラータオル】応募ページにアクセス後、&lt;注意事項&gt;を必ずご確認ください。&lt;br /&gt;
+                ↓&lt;br /&gt;
+                メール送信画面が表示されますので件名・本文に何も入力せずに空メールを送信ください。&lt;br /&gt;
+                ※メール受信拒否設定をされている方は、{{font color=&quot;red&quot;}}js-cp.jp(ドメイン){{/font}}を受信できるよう、設定をお願いします。&lt;br /&gt;
+                ↓&lt;br /&gt;
+                折り返し[応募受付フォームへのURL]を記載したメールを送信致します。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}(2)ユーザーコード認証{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+            商品に封入されているユーザーコードを{{font color=&quot;orange_yellow&quot;}}【1つ】{{/font}}入力し、応募受付フォームへお進みください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{/font}}
+            {{font color=&quot;orange_yellow&quot;}}(3)応募受付フォーム{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+            応募受付フォームへお進み頂き、お客様情報をご入力ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{/font}}
+            {{font color=&quot;orange_yellow&quot;}}(4)応募受付完了{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+            「応募受付完了」と表示されれば受付完了となります。&lt;br /&gt;
+            {{font color=&quot;red&quot;}}※{{/font}}「応募受付完了のお知らせ」をメールにて配信しております。&lt;br /&gt;
+            {{/font}}
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 11:30:06</field>
+		<field name="update_date">2013-01-24 10:00:04</field>
+	</row>
+	<row>
+		<field name="id">117</field>
+		<field name="name">着ボイス注意事項</field>
+		<field name="code">voice_notice</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;{{font color=&quot;red&quot;}}注意事項&lt;br /&gt;(必ずご確認下さい｡){{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+{{font color=&quot;orange_yellow&quot;}}【注1】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ﾕｰｻﾞｰｺｰﾄﾞ1つにつき､“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ(全7種類)からお好きな着ﾎﾞｲｽを1つﾀﾞｳﾝﾛｰﾄﾞ頂けます｡&lt;br /&gt;
+    ※着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞで使用したﾕｰｻﾞｰｺｰﾄﾞは､特製ﾏﾌﾗｰﾀｵﾙへのご応募にも使用できます｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注2】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ﾕｰｻﾞｰｺｰﾄﾞを紛失されても再発行は致しません｡予めご了承ください｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注3】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞは､携帯電話&amp;lt;i-mode/EZweb/Yahoo!ｹｰﾀｲ&amp;gt;限定となります｡&lt;br /&gt;
+    また､一部着ﾎﾞｲｽに対応していない端末がございます｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注4】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    着ﾎﾞｲｽをﾀﾞｳﾝﾛｰﾄﾞする際､通信料が発生します｡携帯電話会社のﾌﾟﾗﾝを十分にご確認の上､ご利用ください｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注5】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    ﾕｰｻﾞｰｺｰﾄﾞは初めにｱｸｾｽした端末でのみご使用頂けます｡同じﾕｰｻﾞｰｺｰﾄﾞを複数の端末で使用することはできません｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注6】{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    下記に該当する場合は､ﾀﾞｳﾝﾛｰﾄﾞできません｡&lt;br /&gt;
+    &lt;br /&gt;
+    ･機種変更や､故障による機種の交換をした場合&lt;br /&gt;
+    ･(FOMAｶｰﾄﾞ/USIMｶｰﾄﾞ/au ICｶｰﾄﾞ)を他の携帯電話に差替えた場合&lt;br /&gt;
+    ･携帯電話の番号変更や名義変更をした場合&lt;br /&gt;
+    ･第三者の携帯電話でﾀﾞｳﾝﾛｰﾄﾞした場合&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;red&quot;}}※電波状況の良い場所で操作してください｡{{/font}}&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+&lt;center&gt;
+&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/voice_select&quot;&gt;
+{{font color=&quot;gold&quot;}}
+注意事項に同意し&lt;br /&gt;
+ﾀﾞｳﾝﾛｰﾄﾞする&lt;br /&gt;
+{{/font}}
+&lt;/a&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;注意事項&lt;br /&gt;(必ずご確認ください。)&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注1】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                ユーザーコード1つにつき、“エイトレンジャー”名セリフ着ボイス(全7種類)からお好きな着ボイスを1つご試聴頂けます。&lt;br /&gt;
+                ※着ボイスのご試聴で使用したユーザーコードは、特製マフラータオルへのご応募にも使用できます。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注2】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                ユーザーコードを紛失されても再発行は致しません。予めご了承ください。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注3】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                期間中の試聴は何度でも可能です。パソコン/PHS/タブレット端末からの試聴は出来ません。&lt;br /&gt;
+                また、一部着ボイスに対応していない端末がございます。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注4】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                着ボイスを試聴する際、通信料が発生します。携帯電話会社のプランを十分にご確認の上、ご利用ください。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注5】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                ユーザーコードは初めにアクセスした端末でのみご使用頂けます。同じユーザーコードを複数の端末で使用することはできません。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注6】{{/font}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}
+                下記に該当する場合は、試聴できません。&lt;br /&gt;
+                &lt;br /&gt;
+                ・機種変更や、故障による機種の交換をした場合&lt;br /&gt;
+                ・(FOMAカード/USIMカード/au ICカード)を他の携帯電話に差替えた場合&lt;br /&gt;
+                ・携帯電話の番号変更や名義変更をした場合&lt;br /&gt;
+                ・第三者の携帯電話で試聴した場合&lt;br /&gt;
+                &lt;br /&gt;
+                {{font color=&quot;red&quot;}}※電波状況の良い場所で操作してください。{{/font}}&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;hr style=&quot;margin: 1em -15px;&quot;&gt;
+            &lt;span class=&quot;center&quot;&gt;
+                {{a link=&quot;/page/voice_select&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;gold&quot; border=&quot;gold&quot;}}注意事項に同意し&lt;br /&gt;試聴する{{/a}}&lt;br /&gt;
+            &lt;/span&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 11:39:27</field>
+		<field name="update_date">2013-01-24 10:00:04</field>
+	</row>
+	<row>
+		<field name="id">118</field>
+		<field name="name">応募の注意事項</field>
+		<field name="code">applicant_notice</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">		&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;{{font color=&quot;red&quot;}}注意事項&lt;br /&gt;(必ずご確認下さい｡){{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+{{font color=&quot;orange_yellow&quot;}}【注1】{{/font}}&lt;br /&gt;
+応募は､携帯電話&amp;lt;i-mode/EZweb/Yahoo!ｹｰﾀｲ&amp;gt;からご応募頂けます｡&lt;br /&gt;
+※ﾊﾟｿｺﾝ/PHS/ﾀﾌﾞﾚｯﾄ端末からの応募はできません｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注2】{{/font}}&lt;br /&gt;
+1つのﾕｰｻﾞｰｺｰﾄﾞを入力できるのは､1回だけです｡&lt;br /&gt;
+同じﾕｰｻﾞｰｺｰﾄﾞを2回以上入力されると無効となりますので､ご注意ください｡&lt;br /&gt;
+着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞで使用したﾕｰｻﾞｰｺｰﾄﾞは､特製ﾏﾌﾗｰﾀｵﾙへのご応募にもご使用できます｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注3】{{/font}}&lt;br /&gt;
+ﾕｰｻﾞｰｺｰﾄﾞを紛失されても再発行は致しません｡予めご了承ください｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注4】{{/font}}&lt;br /&gt;
+“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙへのご応募は､国内在住の方に限ります｡&lt;br /&gt;
+また､当選の譲渡は禁止させて頂きます｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注5】{{/font}}&lt;br /&gt;
+当選者の方には､ﾒｰﾙにてご当選をお知らせ致しますので､携帯ﾒｰﾙｱﾄﾞﾚｽの変更はなさいませんようお願い致します｡&lt;br /&gt;
+※ﾄﾞﾒｲﾝまたはｱﾄﾞﾚｽ指定受信を設定されている方は{{font color=&quot;red&quot;}}js-cp.jp{{/font}}(ﾄﾞﾒｲﾝ)を受信可に設定してください｡&lt;br /&gt;
+※ご当選の発表は､ご当選のﾒｰﾙを持って代えさせて頂きます｡落選通知は致しませんので､予めご了承ください｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【注6】{{/font}}&lt;br /&gt;
+お客様の個人情報はｸﾞｯｽﾞ抽選/発送作業以外での目的では使用いたしません｡&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+&lt;center&gt;
+{{if $smarty.const.APPLICATION_ENVIRONMENT == 'production'}}
+&lt;a href=&quot;mailto:eito_tawel@js-cp.jp&quot;&gt;
+{{else}}
+&lt;a href=&quot;mailto:eito_tawel@stage.js-cp.jp&quot;&gt;
+{{/if}}
+{{font color=&quot;gold&quot;}}
+↓ ↓ ↓&lt;br /&gt;
+注意事項に同意し&lt;br /&gt;
+応募する&lt;br /&gt;
+（空ﾒｰﾙを送る）&lt;br /&gt;
+{{/font}}
+&lt;/a&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;注意事項&lt;br /&gt;(必ずご確認ください。)&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注1】{{/font}}&lt;br /&gt;
+            応募は、スマートフォン&amp;lt;Android/iPhone&amp;gt;からご応募頂けます。&lt;br /&gt;
+            ※パソコン/PHS/タブレット端末からの応募はできません。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注2】{{/font}}&lt;br /&gt;
+            1つのユーザーコードを入力できるのは、1回だけです。&lt;br /&gt;
+            同じユーザーコードを2回以上入力されると無効となりますので、ご注意ください。&lt;br /&gt;
+            ※着ボイスの試聴で使用したユーザーコードは、特製マフラータオルへのご応募にもご使用できます。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注3】{{/font}}&lt;br /&gt;
+            ユーザーコードを紛失されても再発行は致しません。予めご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注4】{{/font}}&lt;br /&gt;
+            “エイトレンジャー”特製マフラータオルへのご応募は、国内在住の方に限ります。&lt;br /&gt;
+            また、当選の譲渡は禁止させて頂きます。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注5】{{/font}}&lt;br /&gt;
+            当選者の方には、メールにてご当選をお知らせ致しますので、携帯メールアドレスの変更はなさいませんようお願い致します。&lt;br /&gt;
+            ※ドメインまたはアドレス指定受信を設定されている方は{{font color=&quot;red&quot;}}js-cp.jp{{/font}}(ドメイン)を受信可に設定してください。&lt;br /&gt;
+            ※ご当選の発表は、ご当選のメールを持って代えさせて頂きます。落選通知は致しませんので、予めご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【注6】{{/font}}&lt;br /&gt;
+            お客様の個人情報はグッズ抽選/発送作業以外での目的では使用いたしません。&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;hr style=&quot;margin: 1em -15px;&quot;&gt;
+            &lt;span class=&quot;center&quot;&gt;
+                {{if $smarty.const.APPLICATION_ENVIRONMENT == 'production'}}
+                {{a href=&quot;mailto:eito_tawel@js-cp.jp?subject=oubo&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;gold&quot; border=&quot;gold&quot;}}注意事項に同意し&lt;br /&gt;応募する&lt;br /&gt;（空メールを送る）{{/a}}&lt;br /&gt;
+                {{else}}
+                {{a href=&quot;mailto:eito_tawel@stage.js-cp.jp?subject=oubo&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;gold&quot; border=&quot;gold&quot;}}注意事項に同意し&lt;br /&gt;応募する&lt;br /&gt;（空メールを送る）{{/a}}&lt;br /&gt;
+                {{/if}}
+            &lt;/span&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 11:54:09</field>
+		<field name="update_date">2013-01-24 10:00:04</field>
+	</row>
+	<row>
+		<field name="id">119</field>
+		<field name="name">着ボイス選択</field>
+		<field name="code">voice_select</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+“ｴｲﾄﾚﾝｼﾞｬｰ”&lt;br /&gt;
+名ｾﾘﾌ着ﾎﾞｲｽ
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;orange_yellow&quot;}}※7種類の中から､1つお選びください｡{{/font}}&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;gray&quot;}}●ﾌﾞﾗｯｸ｢鈴の音が聞こえたから来ただけや｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/black&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;red&quot;}}●ﾚｯﾄﾞ ｢もう俺らの心は､一つや｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/red&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}●ﾅｽ｢ﾌﾞﾗｯｸ!ここは俺らにまかせろ!｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/nasu&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;orange&quot;}}●ｵﾚﾝｼﾞ｢惚れてまうやないか｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/orange&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;sky_blue&quot;}}●ﾌﾞﾙｰ｢超ﾌﾞﾙｰ ちょﾌﾞﾙ｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/blue&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;yellow&quot;}}●ｲｴﾛｰ｢俺がｾﾝﾀｰで輝くためには､お前らみたいな花びらが必要やねん｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/yellow&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}●ｸﾞﾘｰﾝ｢もう騙されもはん｡西郷どんにちこて(誓って)｣{{/font}}&lt;br /&gt;
+    ⇒&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_uta/select/green&quot;&gt;ﾀﾞｳﾝﾛｰﾄﾞ&lt;/a&gt;&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;“エイトレンジャー”&lt;br /&gt;名セリフ着ボイス&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{font color=&quot;orange_yellow&quot;}}※7種類の中から、1つお選びください。{{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;span class=&quot;center&quot;&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/black&quot; type=&quot;button&quot; color=&quot;gray&quot; bgcolor=&quot;black&quot; border=&quot;gray&quot;}}ブラック&lt;br /&gt;「鈴の音が聞こえたから&lt;br /&gt;来ただけや」{{/a}}&lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/red&quot; type=&quot;button&quot; color=&quot;red&quot; bgcolor=&quot;black&quot; border=&quot;red&quot;}}レッド&lt;br /&gt;「もう俺らの心は、一つや」{{/a}}&lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/nasu&quot; type=&quot;button&quot; color=&quot;purple&quot; bgcolor=&quot;black&quot; border=&quot;purple&quot;}}ナス&lt;br /&gt;「ブラック!&lt;br /&gt;ここは俺らにまかせろ!」{{/a}}&lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/orange&quot; type=&quot;button&quot; color=&quot;orange&quot; bgcolor=&quot;black&quot; border=&quot;orange&quot;}}オレンジ&lt;br /&gt;「惚れてまうやないか」{{/a}}&lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/blue&quot; type=&quot;button&quot; color=&quot;sky_blue&quot; bgcolor=&quot;black&quot; border=&quot;sky_blue&quot;}}ブルー&lt;br /&gt;「超ブルー ちょブル」{{/a}}&lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/yellow&quot; type=&quot;button&quot; color=&quot;yellow&quot; bgcolor=&quot;black&quot; border=&quot;yellow&quot;}}イエロー&lt;br /&gt;「俺がセンターで輝くためには、&lt;br /&gt;お前らみたいな花びらが&lt;br /&gt;必要やねん」{{/a}}&lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_uta/select/green&quot; type=&quot;button&quot; color=&quot;green&quot; bgcolor=&quot;black&quot; border=&quot;green&quot;}}グリーン&lt;br /&gt;「もう騙されもはん。&lt;br /&gt;西郷どんにちこて(誓って)」{{/a}}&lt;br /&gt;
+            &lt;/span&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 12:06:27</field>
+		<field name="update_date">2013-01-24 10:00:04</field>
+	</row>
+	<row>
+		<field name="id">120</field>
+		<field name="name">着ボイスシリアル入力</field>
+		<field name="code">serial_input_uta</field>
+		<field name="action_code">set_select,check_redownload_uta</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+{{font color=&quot;white&quot;}}
+“ｴｲﾄﾚﾝｼﾞｬｰ”&lt;br /&gt;
+名ｾﾘﾌ着ﾎﾞｲｽ&lt;br /&gt;
+ﾕｰｻﾞｰｺｰﾄﾞ入力
+{{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{if $errors}}
+    {{font color=&quot;red&quot;}}※入力されたﾕｰｻﾞｰｺｰﾄﾞに誤りがあります｡{{/font}}&lt;br /&gt;&lt;br /&gt;
+{{/if}}
+{{font color=$color}}●{{$color_text}}{{$uta_title}}{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;white&quot;}}ﾕｰｻﾞｰｺｰﾄﾞを入力して[送信]ﾎﾞﾀﾝを押して下さい。{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}ﾕｰｻﾞｰｺｰﾄﾞ1つで“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽを1つﾀﾞｳﾝﾛｰﾄﾞして頂けます｡{{/font}}&lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞで使用したﾕｰｻﾞｰｺｰﾄﾞは､特製ﾏﾌﾗｰﾀｵﾙへのご応募にも使用できます｡{{/font}}&lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}1つのﾕｰｻﾞｰｺｰﾄﾞにつき､ﾀﾞｳﾝﾛｰﾄﾞは1回です｡{{/font}}&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}電波状況の良い場所で操作してください｡{{/font}}&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}●ﾕｰｻﾞｰｺｰﾄﾞ{{/font}}&lt;br /&gt;
+&lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/check_serial_uta&quot; method=&quot;POST&quot;&gt;
+{{form_hidden name=&quot;select&quot;}}
+{{form_text name=&quot;serial&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+&lt;br /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;“エイトレンジャー”&lt;br /&gt;名セリフ着ボイス&lt;br /&gt;ユーザーコード入力&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{if $errors}}
+                {{font color=&quot;red&quot;}}※入力されたユーザーコードに誤りがあります。{{/font}}&lt;br /&gt;&lt;br /&gt;
+            {{/if}}
+            {{font size=&quot;small&quot;}}
+                {{font color=$color}}●{{$color_text}}{{$uta_title}}{{/font}}&lt;br /&gt;
+                &lt;br /&gt;
+                ユーザーコードを入力して[送信]ボタンを押して下さい。&lt;br /&gt;
+                &lt;br /&gt;
+                {{font color=&quot;red&quot;}}※{{/font}}ユーザーコード1つで“エイトレンジャー”名セリフ着ボイスを1つご試聴頂けます。&lt;br /&gt;
+                {{font color=&quot;red&quot;}}※{{/font}}着ボイスの試聴で使用したユーザーコードは、特製マフラータオルへのご応募にも使用できます。&lt;br /&gt;
+                &lt;br /&gt;
+                {{font color=&quot;orange_yellow&quot;}}※電波状況の良い場所で操作してください。{{/font}}&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            &lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/check_serial_uta&quot; method=&quot;POST&quot;&gt;
+                {{form_hidden name=&quot;select&quot;}}
+                ●ユーザーコード&lt;br /&gt;
+                {{form_text name=&quot;serial&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+            &lt;/form&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 12:37:02</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">121</field>
+		<field name="name">着うたダウンロード</field>
+		<field name="code">download</field>
+		<field name="action_code">set_select,check_download_uta</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;“ｴｲﾄﾚﾝｼﾞｬｰ”&lt;br /&gt;
+名ｾﾘﾌ着ﾎﾞｲｽ&lt;br /&gt;
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=$color}}●{{$color_text}}{{$uta_title}}{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+&lt;center&gt;
+{{uta name=$request-&gt;select text=&quot;ﾀﾞｳﾝﾛｰﾄﾞ&quot; color=&quot;white&quot;}}&lt;br /&gt;
+({{$uta_download_size/1024|floor}}KB)&lt;br /&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;red&quot;}}※{{/font}}SH-06A､SH-06A NERV､SH-07A端末はｽﾋﾟｰｶｰの特性上､楽曲などの音を鳴動させた際､音割れ､ひずみ等が発生する場合があります｡予めご了承の上､ご利用くださいませ｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;“エイトレンジャー”&lt;br /&gt;名セリフ着ボイス&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{font color=$color}}●{{$color_text}}{{$uta_title}}{{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;span class=&quot;center&quot;&gt;
+                &lt;br /&gt;{{a link=&quot;/page/voice_play/select/`$request-&gt;select`&quot; type=&quot;button&quot; color=$color bgcolor=&quot;black&quot; border=$color}}{{$color_text}}&lt;br /&gt;{{$uta_title}}{{/a}}&lt;br /&gt;
+            &lt;/span&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 12:56:28</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">122</field>
+		<field name="name">ボイス非対応</field>
+		<field name="code">type_error</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+&lt;br /&gt;
+お客様の端末は対応機種外です。&lt;br /&gt;
+&lt;br /&gt;
+※対応機種は&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/support_type&quot;&gt;ｺﾁﾗ&lt;/a&gt;です。&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone"></field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 13:04:01</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">123</field>
+		<field name="name">ボイス対応機種一覧</field>
+		<field name="code">support_type</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;着ﾎﾞｲｽ対応端末&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot;  text=&quot;#000000&quot;&gt;
+
+&lt;br /&gt;
+&lt;center&gt;
+&lt;font color=&quot;#000000&quot;&gt;着ﾎﾞｲｽ対応端末一覧&lt;/font&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;hr color=&quot;#000000&quot; /&gt;
+
+{{if $device-&gt;isDoCoMo()}}
+&lt;font color=&quot;#000000&quot;&gt;●docomo&lt;/font&gt;&lt;br /&gt;
+{{elseif $device-&gt;isSoftBank()}}
+&lt;font color=&quot;#000000&quot;&gt;●SoftBank&lt;/font&gt;&lt;br /&gt;
+{{elseif $device-&gt;isEzweb()}}
+&lt;font color=&quot;#000000&quot;&gt;●au&lt;/font&gt;&lt;br /&gt;
+{{/if}}
+&lt;br /&gt;
+
+{{foreach from=$this-&gt;getSupportDevice() item=device}}
+{{$device}}&lt;br /&gt;
+{{/foreach}}
+
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone"></field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 13:05:37</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">124</field>
+		<field name="name">応募ページ入り口</field>
+		<field name="code">mail</field>
+		<field name="action_code">check_hash</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+関ｼﾞｬﾆ∞&lt;br /&gt;
+DVD&amp;Blu-ray Disc&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}｢ｴｲﾄﾚﾝｼﾞｬｰ｣{{/font}}&lt;br /&gt;
+“あなたもﾋｰﾛｰに!”&lt;br /&gt;
+購入者ﾌﾟﾚｾﾞﾝﾄｷｬﾝﾍﾟｰﾝ!!&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;gold&quot;}}
+&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/serial_input_applicant/hash/{{$request-&gt;hash}}&quot;&gt;{{font color=&quot;gold&quot;}}“ｴｲﾄﾚﾝｼﾞｬｰ”&lt;br /&gt;
+特製ﾏﾌﾗｰﾀｵﾙ{{/font}}&lt;/a&gt;&lt;br /&gt;
+{{/font}}
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;&gt;個人情報の取扱いに関して&lt;/a&gt;&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            &lt;div class=&quot;center&quot;&gt;
+                関ジャニ∞&lt;br /&gt;
+                DVD&amp;Blu-ray Disc&lt;br /&gt;
+                {{font color=&quot;yellow&quot;}}「エイトレンジャー」{{/font}}&lt;br /&gt;
+                “あなたもヒーローに!”&lt;br /&gt;
+                購入者プレゼントキャンペーン!!&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;br /&gt;{{a link=&quot;/page/serial_input_applicant/hash/`$request-&gt;hash`&quot; type=&quot;button&quot; color=&quot;gold&quot; bgcolor=&quot;black&quot; border=&quot;gold&quot;}}“エイトレンジャー”&lt;br /&gt;特製マフラータオル{{/a}}&lt;br /&gt;
+            &lt;/div&gt;
+            &lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;&gt;{{font color=&quot;yellow&quot;}}★{{/font}}{{font color=&quot;white&quot;}}個人情報の取扱いに関して{{/font}}&lt;/a&gt;&lt;br /&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 13:07:55</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">125</field>
+		<field name="name">応募シリアル入力</field>
+		<field name="code">serial_input_applicant</field>
+		<field name="action_code">check_hash</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+{{font color=&quot;white&quot;}}
+&lt;br /&gt;ﾕｰｻﾞｰｺｰﾄﾞ入力&lt;br /&gt;
+{{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{if $errors}}
+    {{font color=&quot;red&quot;}}※入力されたﾕｰｻﾞｰｺｰﾄﾞに誤りがあります｡{{/font}}&lt;br /&gt;&lt;br /&gt;
+{{/if}}
+{{font color=&quot;white&quot;}}
+ﾕｰｻﾞｰｺｰﾄﾞ1つを入力して[送信]ﾎﾞﾀﾝを押し､お客様の情報をご登録ください｡&lt;br /&gt;
+{{/font}}
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}電波状況の良い場所で操作してください｡{{/font}}&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+{{font color=&quot;orange&quot;}}●{{/font}}{{font color=&quot;white&quot;}}ﾕｰｻﾞｺｰﾄﾞ{{/font}}&lt;br /&gt;
+&lt;form action=&quot;{{$config-&gt;url-&gt;https-&gt;path}}/page/check_serial_applicant&quot; method=&quot;POST&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+{{form_hidden name=&quot;hash&quot;}}
+{{form_text name=&quot;serial&quot; style=&quot;color:black&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+&lt;br /&gt;
+&lt;input type=&quot;submit&quot; style=&quot;color:black&quot; value=&quot;送信&quot; /&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;ユーザーコード入力&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{if $errors}}
+                {{font color=&quot;red&quot;}}※入力されたユーザーコードに誤りがあります。{{/font}}&lt;br /&gt;&lt;br /&gt;
+            {{/if}}
+            {{font size=&quot;small&quot;}}
+                ユーザーコード1つを入力して[送信]ボタンを押し、お客様の情報をご登録下さい。&lt;br /&gt;
+                &lt;br /&gt;
+                {{font color=&quot;red&quot;}}※{{/font}}電波状況の良い場所で操作してください。&lt;br /&gt;
+            {{/font}}
+            &lt;br /&gt;
+            &lt;form action=&quot;{{$config-&gt;url-&gt;https-&gt;path}}/page/check_serial_applicant&quot; method=&quot;POST&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+                {{form_hidden name=&quot;hash&quot;}}
+                {{font color=&quot;orange_yellow&quot;}}●{{/font}}ユーザーコード&lt;br /&gt;
+                {{form_text name=&quot;serial&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+            &lt;/form&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 13:27:19</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">126</field>
+		<field name="name">応募フォーム</field>
+		<field name="code">form</field>
+		<field name="action_code">check_hash</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+{{font color=&quot;white&quot;}}&lt;br /&gt;応募ﾌｫｰﾑ&lt;br /&gt;{{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;white&quot;}}各項目は全て必須項目です。{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}ご当選された方には当選ﾒｰﾙをお送りいたしますので､{{font color=&quot;red&quot;}}js-cp.jp{{/font}}(ﾄﾞﾒｲﾝ)を受信可に設定してください｡{{/font}}&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/confirm&quot; method=&quot;POST&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+{{form_hidden name=&quot;hash&quot;}}
+{{form_hidden name=&quot;serial&quot;}}
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{font color=&quot;red&quot;}}■{{/font}}{{font color=&quot;white&quot;}}姓{{/font}}&lt;/td&gt;
+    &lt;td&gt;{{font color=&quot;yellow&quot;}}■{{/font}}{{font color=&quot;white&quot;}}名{{/font}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{form_text name=&quot;name1&quot; size=&quot;10&quot;}}&lt;/td&gt;
+    &lt;td&gt;{{form_text name=&quot;name2&quot; size=&quot;10&quot;}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{font color=&quot;orange_yellow&quot;}}■{{/font}}{{font color=&quot;white&quot;}}姓(かな){{/font}}&lt;/td&gt;
+    &lt;td&gt;{{font color=&quot;sky_blue&quot;}}■{{/font}}{{font color=&quot;white&quot;}}名(かな){{/font}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{form_text name=&quot;kname1&quot; size=&quot;10&quot;}}&lt;/td&gt;
+    &lt;td&gt;{{form_text name=&quot;kname2&quot; size=&quot;10&quot;}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+{{font color=&quot;white&quot;}}
+{{font color=&quot;green&quot;}}■{{/font}}都道府県&lt;br /&gt;
+{{/font}}
+{{form_select name=&quot;prefecture&quot; type=&quot;prefecture&quot;}}&lt;br /&gt;
+{{font color=&quot;white&quot;}}
+{{font color=&quot;purple&quot;}}■{{/font}}携帯電話番号&lt;br /&gt;
+(例:090123456789)&lt;br /&gt;
+{{/font}}
+{{form_text name=&quot;tel&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+{{font color=&quot;white&quot;}}
+{{font color=&quot;gray&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+{{/font}}
+{{font size=&quot;small&quot; color=&quot;white&quot;}}
+    {{$mail}}&lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}ﾒｰﾙｱﾄﾞﾚｽをご確認になり、ご応募下さい｡{{/font}}&lt;br /&gt;
+{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot; color=&quot;white&quot;}}
+     {{font color=&quot;red&quot;}}※{{/font}}ご連絡は､ﾒｰﾙにてさせて頂きますので､携帯ﾒｰﾙｱﾄﾞﾚｽのご変更はなさいませんようお願いいたします。&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;応募フォーム&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        各項目は全て必須項目です。&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+            {{font color=&quot;red&quot;}}※{{/font}}ご当選された方には当選メールをお送りいたしますので、{{font color=&quot;red&quot;}}js-cp.jp{{/font}}(ドメイン)を受信可に設定してください。&lt;br /&gt;
+        {{/font}}
+        &lt;br /&gt;
+        &lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/confirm&quot; method=&quot;POST&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+        {{form_hidden name=&quot;hash&quot;}}
+        {{form_hidden name=&quot;serial&quot;}}
+        &lt;table border=&quot;0&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{font color=&quot;red&quot;}}■{{/font}}姓&lt;/td&gt;
+            &lt;td&gt;{{font color=&quot;yellow&quot;}}■{{/font}}名&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding-right:0.5em&quot;&gt;{{form_text name=&quot;name1&quot; size=&quot;10&quot;}}&lt;/td&gt;
+            &lt;td style=&quot;padding-left:0.5em&quot;&gt;{{form_text name=&quot;name2&quot; size=&quot;10&quot;}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{font color=&quot;orange_yellow&quot;}}■{{/font}}姓(かな)&lt;/td&gt;
+            &lt;td&gt;{{font color=&quot;sky_blue&quot;}}■{{/font}}名(かな)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding-right:0.5em&quot;&gt;{{form_text name=&quot;kname1&quot; size=&quot;10&quot;}}&lt;/td&gt;
+            &lt;td style=&quot;padding-left:0.5em&quot;&gt;{{form_text name=&quot;kname2&quot; size=&quot;10&quot;}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        {{font color=&quot;green&quot;}}■{{/font}}都道府県&lt;br /&gt;
+        {{form_select name=&quot;prefecture&quot; type=&quot;prefecture&quot;}}&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;purple&quot;}}■{{/font}}携帯電話番号&lt;br /&gt;
+        (例:090123456789)&lt;br /&gt;
+        {{form_text name=&quot;tel&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;gray&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+            {{$mail}}&lt;br /&gt;
+            {{font color=&quot;red&quot;}}※{{/font}}メールアドレスをご確認になり、ご応募下さい。&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}ご連絡は、メールにてさせて頂きますので、携帯メールアドレスのご変更はなさいませんようお願いいたします。&lt;br /&gt;
+        &lt;br /&gt;
+        {{/font}}&lt;br /&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+        &lt;/form&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 13:40:00</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">127</field>
+		<field name="name">応募確認</field>
+		<field name="code">confirm</field>
+		<field name="action_code">check_hash,validate</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+{{font color=&quot;white&quot;}}
+&lt;br /&gt;応募確認&lt;br /&gt;
+{{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot; color=&quot;white&quot;}}
+   以下の内容で間違いがなければ「応募」をｸﾘｯｸしてください。修正する場合は携帯電話の「前のﾍﾟｰｼﾞに戻る」機能を利用して、再度入力をお願いいたします。&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/complete&quot; method=&quot;POST&quot;&gt;
+{{form_params}}
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{font color=&quot;red&quot;}}■{{/font}}{{font color=&quot;white&quot;}}姓{{/font}}&lt;/td&gt;
+    &lt;td&gt;{{font color=&quot;yellow&quot;}}■{{/font}}{{font color=&quot;white&quot;}}名{{/font}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{font color=&quot;white&quot;}}{{$request-&gt;name1}}{{/font}}&lt;/td&gt;
+    &lt;td&gt;{{font color=&quot;white&quot;}}{{$request-&gt;name2}}{{/font}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{font color=&quot;orange_yellow&quot;}}■{{/font}}{{font color=&quot;white&quot;}}姓(かな){{/font}}&lt;/td&gt;
+    &lt;td&gt;{{font color=&quot;sky_blue&quot;}}■{{/font}}{{font color=&quot;white&quot;}}名(かな){{/font}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{font color=&quot;white&quot;}}{{$request-&gt;kname1}}{{/font}}&lt;/td&gt;
+    &lt;td&gt;{{font color=&quot;white&quot;}}{{$request-&gt;kname2}}{{/font}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+{{font color=&quot;green&quot;}}■{{/font}}{{font color=&quot;white&quot;}}都道府県{{/font}}&lt;br /&gt;
+{{font color=&quot;white&quot;}}{{$request-&gt;prefecture}}{{/font}}&lt;br /&gt;
+{{font color=&quot;purple&quot;}}■{{/font}}{{font color=&quot;white&quot;}}携帯電話番号{{/font}}&lt;br /&gt;
+{{font color=&quot;white&quot;}}{{$request-&gt;tel}}{{/font}}&lt;br /&gt;
+{{font color=&quot;gray&quot;}}■{{/font}}{{font color=&quot;white&quot;}}登録メールアドレス{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;white&quot;}}{{$mail}}{{/font}}&lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}ﾒｰﾙｱﾄﾞﾚｽをご確認になり、ご応募下さい｡{{/font}}&lt;br /&gt;
+{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;white&quot;}}ご連絡は、メールにてさせて頂きますので、携帯メールアドレスのご変更はなさいませんようお願いいたします。{{/font}}&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;応募&quot; /&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;応募確認&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        {{font size=&quot;small&quot;}}
+            以下の内容で間違いがなければ「応募」をクリックしてください。修正する場合は「前のページに戻る」機能を利用して、再度入力をお願いいたします。&lt;br /&gt;
+        {{/font}}
+        &lt;br /&gt;
+        &lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/complete&quot; method=&quot;POST&quot;&gt;
+        {{form_params}}
+        &lt;table border=&quot;0&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{font color=&quot;red&quot;}}■{{/font}}姓&lt;/td&gt;
+            &lt;td&gt;{{font color=&quot;yellow&quot;}}■{{/font}}名&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding-right:0.5em&quot;&gt;{{$request-&gt;name1}}&lt;/td&gt;
+            &lt;td style=&quot;padding-left:0.5em&quot;&gt;{{$request-&gt;name2}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{font color=&quot;orange_yellow&quot;}}■{{/font}}姓(かな)&lt;/td&gt;
+            &lt;td&gt;{{font color=&quot;sky_blue&quot;}}■{{/font}}名(かな)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding-right:0.5em&quot;&gt;{{$request-&gt;kname1}}&lt;/td&gt;
+            &lt;td style=&quot;padding-left:0.5em&quot;&gt;{{$request-&gt;kname2}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        {{font color=&quot;green&quot;}}■{{/font}}都道府県&lt;br /&gt;
+        {{$request-&gt;prefecture}}&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;purple&quot;}}■{{/font}}携帯電話番号&lt;br /&gt;
+        {{$request-&gt;tel}}&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;gray&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+            {{$mail}}&lt;br /&gt;
+            {{font color=&quot;red&quot;}}※{{/font}}メールアドレスをご確認になり、ご応募下さい。&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}ご連絡は、メールにてさせて頂きますので、携帯メールアドレスのご変更はなさいませんようお願いいたします。&lt;br /&gt;
+        &lt;br /&gt;
+        {{/font}}&lt;br /&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;応募&quot; /&gt;
+        &lt;/form&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 13:57:27</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">128</field>
+		<field name="name">完了画面</field>
+		<field name="code">complete</field>
+		<field name="action_code">check_hash,validate,save</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;応募受付完了&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}｢ｴｲﾄﾚﾝｼﾞｬｰ｣{{/font}}購入者ﾌﾟﾚｾﾞﾝﾄｷｬﾝﾍﾟｰﾝ､{{font color=&quot;orange&quot;}}“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙ{{/font}}にご応募いただき､誠にありがとうございました｡&lt;br /&gt;
+&lt;br /&gt;
+ご登録いただきました携帯ﾒｰﾙｱﾄﾞﾚｽに､応募完了ﾒｰﾙが届きますのでご確認くださいませ｡&lt;br /&gt;
+当選された方には､{{font color=&quot;red&quot;}}【3月中】{{/font}}にﾒｰﾙにてご連絡致します｡&lt;br /&gt;
+応募後に携帯ﾒｰﾙｱﾄﾞﾚｽの変更を行った場合は､応募･当選は無効となりますのでご注意ください｡&lt;br /&gt;
+※落選通知は致しませんので､予めご了承ください｡&lt;br /&gt;
+&lt;br /&gt;
+入力いただいたﾕｰｻﾞｰｺｰﾄﾞは､確認の際に必要な場合がございますので大事に保管してください｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;red&quot;}}※{{/font}}当選された方には､ﾒｰﾙにてご連絡致しますので､携帯ﾒｰﾙｱﾄﾞﾚｽのご変更はなさいませんようお願い申し上げます｡&lt;br /&gt;
+{{font color=&quot;red&quot;}}※{{/font}}ﾒｰﾙ受信拒否設定をされている方は{{font color=&quot;red&quot;}}js-cp.jp{{/font}}(ﾄﾞﾒｲﾝ)を受信できるよう､設定をお願いします｡&lt;br /&gt;
+{{font color=&quot;red&quot;}}※{{/font}}万が一､登録完了ﾒｰﾙが配信されなくても､こちらの画面が表示されましたら､ご登録は正常に完了しております｡&lt;br /&gt;
+&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq&quot;&gt;よくある質問と答え&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}応募/当選/待受/着ﾎﾞｲｽについて{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/contact/form&quot;&gt;お問合わせ&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}※当ｷｬﾝﾍﾟｰﾝに関するお問合わせは､上記窓口以外ではお受けしておりませんので､ご注意ください｡{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;応募受付完了&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        {{font color=&quot;yellow&quot;}}「エイトレンジャー」{{/font}}購入者プレゼントキャンペーン、{{font color=&quot;orange&quot;}}“エイトレンジャー”特製マフラータオル{{/font}}にご応募いただき、誠にありがとうございました。&lt;br /&gt;
+        &lt;br /&gt;
+        ご登録いただきました携帯メールアドレスに、応募完了メールが届きますのでご確認くださいませ。&lt;br /&gt;
+        当選された方には、{{font color=&quot;red&quot;}}【3月中】{{/font}}にメールにてご連絡致します。&lt;br /&gt;
+        応募後に携帯メールアドレスの変更を行った場合は、応募・当選は無効となりますのでご注意ください。&lt;br /&gt;
+        ※落選通知は致しませんので、予めご了承ください。&lt;br /&gt;
+        &lt;br /&gt;
+        入力いただいたユーザーコードは、確認の際に必要な場合がございますので大事に保管してください。&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}当選された方には、メールにてご連絡致しますので、携帯メールアドレスのご変更はなさいませんようお願い申し上げます。&lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}メール受信拒否設定をされている方は{{font color=&quot;red&quot;}}js-cp.jp{{/font}}(ドメイン)を受信できるよう、設定をお願いします。&lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}万が一、登録完了メールが配信されなくても、こちらの画面が表示されましたら、ご登録は正常に完了しております。&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;hr style=&quot;margin: 1em -15px;&quot;&gt;
+    &lt;div&gt;
+         &lt;br /&gt;{{a link=&quot;/page/faq#voice&quot; type=&quot;button&quot; color=&quot;black&quot; bgcolor=&quot;orange_yellow&quot; border=&quot;gold&quot;}}よくある質問と答え&lt;br /&gt;{{font size=&quot;small&quot;}}着ボイス/応募/当選について{{/font}}{{/a}}&lt;br /&gt;
+        &lt;br /&gt;{{a link=&quot;/contact/form&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;deep_green&quot; border=&quot;deep_green&quot;}}お問い合わせ{{/a}}&lt;br /&gt;
+        {{font size=&quot;small&quot;}}{{font color=&quot;red&quot;}}※{{/font}}当キャンペーンに関するお問い合わせは、上記窓口以外ではお受けしておりませんので、ご注意ください。{{/font}}&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;orange_yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;  style=&quot;color: white;&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 15:14:08</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">129</field>
+		<field name="name">よくある質問と答え</field>
+		<field name="code">faq</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+よくある質問と答え&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    &lt;a href=&quot;#voice&quot;&gt;{{font color=&quot;green&quot;}}着ﾎﾞｲｽ{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq_applicant#applicant&quot;&gt;{{font color=&quot;purple&quot;}}応募{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq_applicant#winner&quot;&gt;{{font color=&quot;orange&quot;}}当選{{/font}}&lt;/a&gt;&lt;/center&gt;
+{{/font}}
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    &lt;a name=&quot;voice&quot;&gt;&lt;/a&gt;{{font color=&quot;green&quot;}}■着ﾎﾞｲｽについて&lt;br /&gt;
+    Q.1&lt;br /&gt;
+    着ﾎﾞｲｽをﾀﾞｳﾝﾛｰﾄﾞ出来る端末は何ですか?{{/font}}&lt;br /&gt;
+    A.1&lt;br /&gt;
+    着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞは､携帯電話&amp;lt;i-mode/EZweb/Yahoo!ｹｰﾀｲ&amp;gt;限定となります｡&lt;br /&gt;
+    ﾊﾟｿｺﾝ/PHS/ﾀﾌﾞﾚｯﾄ端末からのﾀﾞｳﾝﾛｰﾄﾞはできません｡&lt;br /&gt;
+    一部､着ﾎﾞｲｽに対応していない携帯電話がございます｡&lt;br /&gt;
+    ※着ﾎﾞｲｽ対応機種は&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/support_type&quot;&gt;ｺﾁﾗ&lt;/a&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}Q.2&lt;br /&gt;
+    着ﾎﾞｲｽはﾕｰｻﾞｰｺｰﾄﾞ1つでいくつﾀﾞｳﾝﾛｰﾄﾞできますか?{{/font}}&lt;br /&gt;
+    A.2&lt;br /&gt;
+    ﾕｰｻﾞｰｺｰﾄﾞ1つにつき､“ｴｲﾄﾚﾝｼﾞｬｰ”名ｾﾘﾌ着ﾎﾞｲｽ(全7種類)の中から､1つをﾀﾞｳﾝﾛｰﾄﾞして頂けます｡&lt;br /&gt;
+    ※着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞで使用したﾕｰｻﾞｰｺｰﾄﾞは､特製ﾏﾌﾗｰﾀｵﾙへのご応募にもご使用できます｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}Q.3&lt;br /&gt;
+    ﾕｰｻﾞｰｺｰﾄﾞを紛失してしまいました｡{{/font}}&lt;br /&gt;
+    A.3&lt;br /&gt;
+    ﾕｰｻﾞｰｺｰﾄﾞを紛失されても再発行は致しません｡予めご了承ください｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}Q.4&lt;br /&gt;
+    何度もﾀﾞｳﾝﾛｰﾄﾞできますか?{{/font}}&lt;br /&gt;
+    A.4&lt;br /&gt;
+    1つのﾕｰｻﾞｰｺｰﾄﾞにつき､ﾀﾞｳﾝﾛｰﾄﾞは1回となります｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}Q.5&lt;br /&gt;
+    着ﾎﾞｲｽの取得に失敗しました｡&lt;br /&gt;
+    また､取得する前に画面を閉じてしまいました｡{{/font}}&lt;br /&gt;
+    A.5&lt;br /&gt;
+    ﾕｰｻﾞｰｺｰﾄﾞを入力した端末に限り､{{font color=&quot;sky_blue&quot;}}【2013/2/28(木)24:00】{{/font}}まで､何度でもﾀﾞｳﾝﾛｰﾄﾞ可能です｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}Q.6&lt;br /&gt;
+    最初にｱｸｾｽした端末以外の端末からﾀﾞｳﾝﾛｰﾄﾞすることはできますか?{{/font}}&lt;br /&gt;
+    A.6&lt;br /&gt;
+    着ﾎﾞｲｽのﾀﾞｳﾝﾛｰﾄﾞは､初めにｱｸｾｽした端末でのみ､可能です｡1つのﾕｰｻﾞｰｺｰﾄﾞを複数の端末で使用することはできません｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;green&quot;}}Q.7&lt;br /&gt;
+    ﾀﾞｳﾝﾛｰﾄﾞした端末以外で再生できますか?{{/font}}&lt;br /&gt;
+    A.7&lt;br /&gt;
+    下記に該当する場合は､再生できません｡&lt;br /&gt;
+    &lt;br /&gt;
+    ･機種変更や､故障による機種の交換をした場合&lt;br /&gt;
+    ･FOMAｶｰﾄﾞ/USIMｶｰﾄﾞ/au ICｶｰﾄﾞを他の携帯電話に差し替えた場合&lt;br /&gt;
+    ･携帯電話の番号変更や名義変更をした場合&lt;br /&gt;
+    ･第三者の携帯電話でﾀﾞｳﾝﾛｰﾄﾞした場合&lt;br /&gt;
+    &lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div data-role=&quot;page&quot; id=&quot;voice&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;よくある質問と答え&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        {{font size=&quot;small&quot;}}
+            &lt;div class=&quot;center&quot;&gt;
+                &lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#voice&quot;&gt;{{font color=&quot;green&quot;}}着ボイス{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#applicant&quot;&gt;{{font color=&quot;purple&quot;}}応募{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#winner&quot;&gt;{{font color=&quot;orange&quot;}}当選{{/font}}&lt;/a&gt;
+            &lt;/div&gt;
+        {{/font}}
+        &lt;br /&gt;
+        {{font color=&quot;green&quot;}}■着ボイスについて{{/font}}&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+            {{font color=&quot;green&quot;}}
+            Q.1&lt;br /&gt;
+            着ボイスを試聴出来る端末は何ですか?{{/font}}&lt;br /&gt;
+            A.1&lt;br /&gt;
+            着ボイスの試聴はスマートフォン&amp;lt;Android/iPhone&amp;gt;限定となります。&lt;br /&gt;
+            期間中の試聴は何度でも可能です。パソコン/PHS/タブレット端末からの試聴はできません。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;sky_blue&quot;}}●Android{{/font}}&lt;br /&gt;
+            【対応OS】&lt;br /&gt;
+            Android 2.2以上(タブレット端末を除く)&lt;br /&gt;
+            ※標準ブラウザ推奨&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;sky_blue&quot;}}●iPhone{{/font}}&lt;br /&gt;
+            【対応OS】&lt;br /&gt;
+            iOS4.2以上(タブレット端末を除く)&lt;br /&gt;
+            ※Safari推奨&lt;br /&gt;
+            &lt;br /&gt;
+            ※スマートフォンでは、上記OS以外での試聴はできません。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;green&quot;}}Q.2&lt;br /&gt;
+            着ボイスはユーザーコード1つでいくつ視聴できますか?{{/font}}&lt;br /&gt;
+            A.2&lt;br /&gt;
+            ユーザーコード1つにつき、“エイトレンジャー”名セリフ着ボイス(全7種類)の中から、1つをご試聴頂けます。&lt;br /&gt;
+            ※着ボイスのご試聴で使用したユーザーコードは、特製マフラータオルへのご応募にもご使用できます。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;green&quot;}}Q.3&lt;br /&gt;
+            ユーザーコードを紛失してしまいました。{{/font}}&lt;br /&gt;
+            A.3&lt;br /&gt;
+            ユーザーコードを紛失されても再発行は致しません。予めご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;green&quot;}}Q.4&lt;br /&gt;
+            着ボイスの試聴に失敗しました。&lt;br /&gt;また、取得する前に画面を閉じてしまいました。{{/font}}&lt;br /&gt;
+            A.4&lt;br /&gt;
+            ユーザーコードを入力した端末に限り、{{font color=&quot;sky_blue&quot;}}【2013/2/28(木)24:00】{{/font}}まで、何度でも試聴可能です。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;green&quot;}}Q.5&lt;br /&gt;
+            最初に試聴した端末以外で試聴できますか?{{/font}}&lt;br /&gt;
+            A.5&lt;br /&gt;
+            初めにユーザーコードを入力した端末でのみ、試聴できます。1つのユーザーコードを複数の端末で使用することはできません。&lt;br /&gt;
+            &lt;br /&gt;
+            下記に該当する場合は、試聴できません。&lt;br /&gt;
+            &lt;br /&gt;
+            ・機種変更や、故障による機種の交換をした場合&lt;br /&gt;
+            ・FOMAカード/USIMカード/au ICカードを他の携帯電話に差し替えた場合&lt;br /&gt;
+            ・携帯電話の番号変更や名義変更をした場合&lt;br /&gt;
+            ・第三者の携帯電話で試聴した場合&lt;br /&gt;
+            &lt;br /&gt;
+        {{/font}}
+        &lt;br /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div data-role=&quot;page&quot; id=&quot;applicant&quot;  data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;よくある質問と答え&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        {{font size=&quot;small&quot;}}
+            &lt;div class=&quot;center&quot;&gt;
+                &lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#voice&quot;&gt;{{font color=&quot;green&quot;}}着ボイス{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#applicant&quot;&gt;{{font color=&quot;purple&quot;}}応募{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#winner&quot;&gt;{{font color=&quot;orange&quot;}}当選{{/font}}&lt;/a&gt;
+            &lt;/div&gt;
+        {{/font}}
+        &lt;br /&gt;
+        {{font color=&quot;purple&quot;}}■応募について{{/font}}&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+            {{font color=&quot;purple&quot;}}
+            Q.1&lt;br /&gt;
+            応募できる端末は何ですか?{{/font}}&lt;br /&gt;
+            A.1&lt;br /&gt;
+            スマートフォン&amp;lt;Android/iPhone&amp;gt;からご応募頂けます。&lt;br /&gt;
+            ※パソコン/PHS/タブレット端末からの応募はできません。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}Q.2&lt;br /&gt;
+            1つのユーザーコードを何度も入力出来ますか?{{/font}}&lt;br /&gt;
+            A.2&lt;br /&gt;
+            1つのユーザーコードを入力できるのは1回のみです。&lt;br /&gt;
+            同じユーザーコードを2回以上入力されると無効になりますので、ご注意ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}Q.3&lt;br /&gt;
+            ユーザーコードを紛失してしまいました。{{/font}}&lt;br /&gt;
+            A.3&lt;br /&gt;
+            ユーザーコードを紛失されても再発行は致しません。予めご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}Q.4&lt;br /&gt;
+            海外に住んでいます。応募できますか?{{/font}}&lt;br /&gt;
+            A.4&lt;br /&gt;
+            “エイトレンジャー”特製マフラータオルへのご応募は国内在住の方に限ります。&lt;br /&gt;
+            また、当選の譲渡は禁止させて頂きます。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}Q.5&lt;br /&gt;
+            [応募する]から空メールを送ったけど、自動返信のメールが届きません。{{/font}}&lt;br /&gt;
+            A.5&lt;br /&gt;
+            ドメイン{{font color=&quot;sky_blue&quot;}}「js-cp.jp」{{/font}}をドメイン受信できているかご確認の上、設定がされていない場合は、受信許可リストへ追加してください。&lt;br /&gt;
+            なりすまし規制等の設定がある場合もご確認ください。&lt;br /&gt;
+            また、迷惑メールフォルダに自動振り分けされている場合がございますのでご注意ください。&lt;br /&gt;
+            以上をご確認の上、再度空メールの送信を行なってください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}Q.6&lt;br /&gt;
+            応募受付完了メールが届きません。また応募後に登録情報を変更できますか?{{/font}}&lt;br /&gt;
+            A.6&lt;br /&gt;
+            ドメインまたはアドレス指定受信をご利用の方は、{{font color=&quot;sky_blue&quot;}}「js-cp.jp」{{/font}}(ドメイン)のメールを受信できるよう設定をお願い致します。&lt;br /&gt;
+            尚、登録情報の変更はできません。予め、ご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;purple&quot;}}Q.7&lt;br /&gt;
+            応募後にメールアドレスを変えてしまいました。{{/font}}&lt;br /&gt;
+            A.7&lt;br /&gt;
+            当選者の方には、メールにてご当選をお知らせ致しますので、携帯メールアドレスの変更はなさいませんようお願い致します。&lt;br /&gt;
+            連絡が取れない場合は、応募、当選は無効となりますのでご注意ください。&lt;br /&gt;
+            &lt;br /&gt;
+        {{/font}}
+    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;div data-role=&quot;page&quot; id=&quot;winner&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;よくある質問と答え&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        {{font size=&quot;small&quot;}}
+            &lt;div class=&quot;center&quot;&gt;
+                &lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#voice&quot;&gt;{{font color=&quot;green&quot;}}着ボイス{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#applicant&quot;&gt;{{font color=&quot;purple&quot;}}応募{{/font}}&lt;/a&gt;/&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq#winner&quot;&gt;{{font color=&quot;orange&quot;}}当選{{/font}}&lt;/a&gt;
+            &lt;/div&gt;
+        {{/font}}
+        &lt;br /&gt;
+        {{font color=&quot;orange&quot;}}■当選について{{/font}}&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+            {{font color=&quot;orange&quot;}}Q.8&lt;br /&gt;
+            当選はどのようにして決めているのでしょうか？{{/font}}&lt;br /&gt;
+            A.8&lt;br /&gt;
+            厳正なる抽選で決定致します。&lt;br /&gt;
+            詳細につきましては、お答え致しかねますのでご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange&quot;}}Q.9&lt;br /&gt;
+            当選発表はいつですか？{{/font}}&lt;br /&gt;
+            A.9&lt;br /&gt;
+            当選された方には、{{font color=&quot;sky_blue&quot;}}【3月中】{{/font}}にメールにてご連絡致します。&lt;br /&gt;
+            応募後に携帯メールアドレスの変更を行った場合は、応募・当選は無効となりますのでご注意ください。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange&quot;}}Q.10&lt;br /&gt;
+            落選した場合、教えてもらえますか？{{/font}}&lt;br /&gt;
+            A.10&lt;br /&gt;
+            落選通知は致しませんので、予めご了承ください。&lt;br /&gt;
+            &lt;br /&gt;
+        {{/font}}
+    &lt;/div&gt; 
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 15:31:53</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">130</field>
+		<field name="name">よくある質問と答え（応募）</field>
+		<field name="code">faq_applicant</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+よくある質問と答え&lt;br /&gt;
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    &lt;a name=&quot;applicant&quot;&gt;&lt;/a&gt;{{font color=&quot;purple&quot;}}■応募について&lt;br /&gt;
+    Q.1&lt;br /&gt;
+    応募できる端末は何ですか?{{/font}}&lt;br /&gt;
+    A.1&lt;br /&gt;
+    携帯電話&amp;lt;i-mode/EZweb/Yahoo!ｹｰﾀｲ&amp;gt;からご応募頂けます｡&lt;br /&gt;
+    ※ﾊﾟｿｺﾝ/PHS/ﾀﾌﾞﾚｯﾄ端末からの応募はできません｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}Q.2&lt;br /&gt;
+    1つのﾕｰｻﾞｰｺｰﾄﾞを何度も入力出来ますか?{{/font}}&lt;br /&gt;
+    A.2&lt;br /&gt;
+    1つのﾕｰｻﾞｰｺｰﾄﾞを入力できるのは1回のみです｡&lt;br /&gt;
+    同じﾕｰｻﾞｰｺｰﾄﾞを2回以上入力されると無効になりますので､ご注意ください｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}Q.3&lt;br /&gt;
+    ﾕｰｻﾞｰｺｰﾄﾞを紛失してしまいました｡{{/font}}&lt;br /&gt;
+    A.3&lt;br /&gt;
+    ﾕｰｻﾞｰｺｰﾄﾞを紛失されても再発行は致しません｡予めご了承ください｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}Q.4&lt;br /&gt;
+    海外に住んでいます｡応募できますか?{{/font}}&lt;br /&gt;
+    A.4&lt;br /&gt;
+    “ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙへのご応募は国内在住の方に限ります｡&lt;br /&gt;
+    また､当選の譲渡は禁止させて頂きます｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}Q.5&lt;br /&gt;
+    [応募する]から空ﾒｰﾙを送ったけど､自動返信のﾒｰﾙが届きません｡{{/font}}&lt;br /&gt;
+    A.5&lt;br /&gt;
+    ﾄﾞﾒｲﾝ{{font color=&quot;sky_blue&quot;}}｢js-cp.jp｣{{/font}}をﾄﾞﾒｲﾝ受信できているかご確認の上､設定がされていない場合は､受信許可ﾘｽﾄへ追加してください｡&lt;br /&gt;
+    なりすまし規制等の設定がある場合もご確認ください｡&lt;br /&gt;
+    また､迷惑ﾒｰﾙﾌｫﾙﾀﾞに自動振り分けされている場合がございますのでご注意ください｡&lt;br /&gt;
+    以上をご確認の上､再度空ﾒｰﾙの送信を行なってください｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}Q.6&lt;br /&gt;
+    応募受付完了ﾒｰﾙが届きません｡また応募後に登録情報を変更できますか?{{/font}}&lt;br /&gt;
+    A.6&lt;br /&gt;
+    ﾄﾞﾒｲﾝまたはｱﾄﾞﾚｽ指定受信をご利用の方は､{{font color=&quot;sky_blue&quot;}}｢js-cp.jp｣{{/font}}(ﾄﾞﾒｲﾝ)のﾒｰﾙを受信できるよう設定をお願い致します｡&lt;br /&gt;
+    尚､登録情報の変更はできません｡予め､ご了承ください｡&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;purple&quot;}}Q.7&lt;br /&gt;
+    応募後にﾒｰﾙｱﾄﾞﾚｽを変えてしまいました｡{{/font}}&lt;br /&gt;
+    A.7&lt;br /&gt;
+    当選者の方には､ﾒｰﾙにてご当選をお知らせ致しますので､携帯ﾒｰﾙｱﾄﾞﾚｽの変更はなさいませんようお願い致します｡&lt;br /&gt;
+    連絡が取れない場合は､応募､当選は無効となりますのでご注意ください｡&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;a name=&quot;winner&quot;&gt;&lt;/a&gt;{{font color=&quot;orange&quot;}}■当選について{{/font}}&lt;br /&gt;
+    {{font color=&quot;orange&quot;}}Q.8&lt;br /&gt;
+    当選はどのようにして決めているのでしょうか？{{/font}}&lt;br /&gt;
+    A.8&lt;br /&gt;
+    厳正なる抽選で決定致します。&lt;br /&gt;
+    詳細につきましては、お答え致しかねますのでご了承ください。&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;orange&quot;}}Q.9&lt;br /&gt;
+    当選発表はいつですか？{{/font}}&lt;br /&gt;
+    A.9&lt;br /&gt;
+    当選された方には、{{font color=&quot;sky_blue&quot;}}【3月中】{{/font}}にﾒｰﾙにてご連絡致します。&lt;br /&gt;
+    応募後に携帯ﾒｰﾙｱﾄﾞﾚｽの変更を行った場合は、応募・当選は無効となりますのでご注意ください。&lt;br /&gt;
+    &lt;br /&gt;
+    {{font color=&quot;orange&quot;}}Q.10&lt;br /&gt;
+    落選した場合、教えてもらえますか？{{/font}}&lt;br /&gt;
+    A.10&lt;br /&gt;
+    落選通知は致しませんので、予めご了承ください。&lt;br /&gt;
+    &lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone"></field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 15:37:33</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">131</field>
+		<field name="name">個人情報の取扱い</field>
+		<field name="code">privacy</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;&lt;br /&gt;
+{{font color=&quot;gold&quot;}}個人情報の&lt;br /&gt;
+取り扱いに関して{{/font}}&lt;br /&gt;
+&lt;/center&gt;
+&lt;hr&gt;
+当ｷｬﾝﾍﾟｰﾝのｻｰﾋﾞｽを通して入手したお客様の個人情報は､それぞれの業務遂行の為だけに利用し管理しております。&lt;br /&gt;
+お客様の個人情報の秘密保持を厳守し､業務委託業者(配送業者等)への業務遂行上必要最小限の基本情報の提供以外に第三者への開示は行いません｡
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;個人情報の&lt;br /&gt;取り扱いに関して&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p&gt;
+            {{font size=&quot;small&quot;}}
+                当キャンペーンのサービスを通して入手したお客様の個人情報は、それぞれの業務遂行の為だけに利用し管理しております。&lt;br /&gt;
+                お客様の個人情報の秘密保持を厳守し、業務委託業者(配送業者等)への業務遂行上必要最小限の基本情報の提供以外に第三者への開示は行いません。
+            {{/font}}
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 16:00:57</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">132</field>
+		<field name="name">終了TOPページ</field>
+		<field name="code">close</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#000000&quot; link=&quot;#ffffff&quot; vlink=&quot;#ffffff&quot; text=&quot;#ffffff&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+関ｼﾞｬﾆ∞&lt;br /&gt;
+DVD&amp;Blu-ray Disc&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}｢ｴｲﾄﾚﾝｼﾞｬｰ｣{{/font}}&lt;br /&gt;
+“あなたもﾋｰﾛｰに!”&lt;br /&gt;
+購入者ﾌﾟﾚｾﾞﾝﾄｷｬﾝﾍﾟｰﾝ!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;{{$base_url}}/img/view2/file/top&quot; /&gt;&lt;br /&gt;
+&lt;/center&gt;
+&lt;br /&gt;
+&lt;marquee bgcolor=&quot;#FED230&quot; loop=&quot;16&quot;&gt;{{font color=&quot;black&quot;}}DVD&amp;Blu-ray Disc｢ｴｲﾄﾚﾝｼﾞｬｰ｣購入者ﾌﾟﾚｾﾞﾝﾄｷｬﾝﾍﾟｰﾝ終了{{/font}}&lt;/marquee&gt;&lt;br /&gt;
+&lt;br /&gt;
+関ｼﾞｬﾆ∞DVD&amp;Blu-ray Disc{{font color=&quot;yellow&quot;}}｢ｴｲﾄﾚﾝｼﾞｬｰ｣{{/font}}の発売を記念したｷｬﾝﾍﾟｰﾝは､{{font color=&quot;red&quot;}}【2013/2/28(木)24:00】{{/font}}をもちまして終了致しました｡&lt;br /&gt;
+沢山のﾀﾞｳﾝﾛｰﾄﾞ&amp;ご応募ありがとうございました｡&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}【“ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙ当選発表に関して】{{/font}}&lt;br /&gt;
+当選された方にはﾒｰﾙにて､{{font color=&quot;red&quot;}}【3月中】{{/font}}にご連絡致します｡&lt;br /&gt;
+応募後に携帯ﾒｰﾙｱﾄﾞﾚｽの変更を行った場合は､応募･当選は無効とさせて頂きますのでご注意ください｡&lt;br /&gt;
+&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/faq&quot;&gt;よくある質問と答え&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}着ﾎﾞｲｽ/応募/当選について{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/contact/form&quot;&gt;お問合わせ&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}※当ｷｬﾝﾍﾟｰﾝに関するお問合わせは､上記窓口以外ではお受けしておりませんので､ご注意ください｡{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        &lt;p class=&quot;center&quot;&gt;
+            関ジャニ∞&lt;br /&gt;
+            DVD&amp;Blu-ray Disc&lt;br /&gt;
+            {{font color=&quot;yellow&quot;}}「エイトレンジャー」{{/font}}&lt;br /&gt;
+            “あなたもヒーローに!”&lt;br /&gt;
+            購入者プレゼントキャンペーン!!&lt;br /&gt;
+            &lt;img src=&quot;{{$request-&gt;getBaseUrl()}}/images_sp/blank.gif&quot; style=&quot;width:232px;height:232px;background:url('{{$request-&gt;getBaseUrl()}}/img/view2/file/top');background-size:232px 232px&quot; /&gt;
+        &lt;/p&gt;
+        &lt;marquee bgcolor=&quot;#FED230&quot; loop=&quot;16&quot;&gt;{{font color=&quot;black&quot;}}DVD&amp;Blu-ray Disc「エイトレンジャー」購入者プレゼントキャンペーン終了!!{{/font}}&lt;/marquee&gt;&lt;br /&gt;
+        &lt;p&gt;
+            関ジャニ∞DVD&amp;Blu-ray Disc{{font color=&quot;yellow&quot;}}「エイトレンジャー」{{/font}}の発売を記念したキャンペーンは、{{font color=&quot;red&quot;}}【2013/2/28(木)24:00】{{/font}}をもちまして終了致しました。&lt;br /&gt;
+            沢山のご試聴&amp;ご応募ありがとうございました。&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}【“エイトレンジャー”特製マフラータオル当選発表に関して】{{/font}}&lt;br /&gt;
+            当選された方にはメールにて、{{font color=&quot;red&quot;}}【3月中】{{/font}}にご連絡致します。&lt;br /&gt;
+            応募後に携帯メールアドレスの変更を行った場合は、応募・当選は無効とさせて頂きますのでご注意ください。&lt;br /&gt;
+        &lt;/p&gt;
+        &lt;hr style=&quot;margin: 1em -15px;&quot;&gt;
+        &lt;div&gt;
+            &lt;br /&gt;{{a link=&quot;/page/faq#voice&quot; type=&quot;button&quot; color=&quot;black&quot; bgcolor=&quot;orange_yellow&quot; border=&quot;gold&quot;}}よくある質問と答え&lt;br /&gt;{{font size=&quot;small&quot;}}着ボイス/応募/当選について{{/font}}{{/a}}&lt;br /&gt;
+            &lt;br /&gt;{{a link=&quot;/contact/form&quot; type=&quot;button&quot; color=&quot;white&quot; bgcolor=&quot;deep_green&quot; border=&quot;deep_green&quot;}}お問い合わせ{{/a}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}{{font color=&quot;red&quot;}}※{{/font}}当キャンペーンに関するお問い合わせは、上記窓口以外ではお受けしておりませんので、ご注意ください。{{/font}}&lt;br /&gt;
+            &lt;br /&gt;
+            {{font color=&quot;orange_yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;  style=&quot;color: white;&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 16:05:52</field>
+		<field name="update_date">2013-03-01 17:50:03</field>
+	</row>
+	<row>
+		<field name="id">133</field>
+		<field name="name">ボイス視聴</field>
+		<field name="code">voice_play</field>
+		<field name="action_code">set_select,check_download_uta</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile"></field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;e&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;h&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;“エイトレンジャー”&lt;br /&gt;名セリフ着ボイス&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+        {{uta name=$request-&gt;select text=&quot;再生&quot;}}
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-17 17:54:20</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">134</field>
+		<field name="name">シリアルチェック（うた）</field>
+		<field name="code">check_serial_uta</field>
+		<field name="action_code">check_serial_uta</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">{{* シリアルチェック用 *}}</field>
+		<field name="source_smartphone">{{* シリアルチェック用 *}}</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-21 12:21:44</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">135</field>
+		<field name="name">シリアルチェック（応募）</field>
+		<field name="code">check_serial_applicant</field>
+		<field name="action_code">check_serial_applicant</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">{{* シリアルチェック用 *}}</field>
+		<field name="source_smartphone">{{* シリアルチェック用 *}}</field>
+		<field name="is_close">1</field>
+		<field name="release_date">2013-01-24 10:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-01-21 12:22:15</field>
+		<field name="update_date">2013-01-24 10:00:05</field>
+	</row>
+	<row>
+		<field name="id">136</field>
+		<field name="name">当選者TOP</field>
+		<field name="code">registration</field>
+		<field name="action_code">registration_check_top</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}お客様情報登録{{/font}}&lt;br /&gt;
+&lt;br /&gt;
+&lt;/center&gt;
+&lt;hr&gt;
+ご当選おめでとうございます!!&lt;br /&gt;
+&lt;br /&gt;
+厳正なる抽選の結果､ “ｴｲﾄﾚﾝｼﾞｬｰ”特製ﾏﾌﾗｰﾀｵﾙがご当選されました｡&lt;br /&gt;
+賞品をお届けするため､お手数とは存じますが下記よりお客様情報をご登録ください｡&lt;br /&gt;
+&lt;br /&gt;
+&lt;form action=&quot;{{$config-&gt;url-&gt;https-&gt;path}}/page/registration_form&quot; method=&quot;POST&quot;&gt;
+{{form_hidden name=&quot;hash&quot;}}
+&lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;配送先登録はｺﾁﾗ&quot;&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+{{font color=&quot;orange_yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot;&gt;個人情報の取り扱いに関して&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;y&quot;&gt;
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        ご登録頂きましたメールアドレスをご入力くださいませ。&lt;br /&gt;
+        &lt;br /&gt;
+        &lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/registration_sp&quot; method=&quot;POST&quot;&gt;
+        {{form_hidden name=&quot;hash&quot;}}
+        {{form_text name=&quot;mail&quot;}}&lt;br /&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+        &lt;/form&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-03-11 12:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-03-04 10:06:16</field>
+		<field name="update_date">2013-03-11 17:13:31</field>
+	</row>
+	<row>
+		<field name="id">137</field>
+		<field name="name">当選者登録フォーム</field>
+		<field name="code">registration_form</field>
+		<field name="action_code">registration_check</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+{{font color=&quot;orange_yellow&quot;}}&lt;br /&gt;配送先登録ﾌｫｰﾑ&lt;br /&gt;{{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font color=&quot;red&quot;}}*{{/font}}は全て必須項目です。&lt;br /&gt;
+&lt;br /&gt;
+&lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/registration_confirm&quot; method=&quot;POST&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+{{form_hidden name=&quot;hash&quot;}}
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;
+    &lt;td&gt;姓&lt;/td&gt;
+    &lt;td&gt;名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{$form-&gt;name1}}&lt;/td&gt;
+    &lt;td&gt;{{$form-&gt;name2}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;姓(かな)&lt;/td&gt;
+    &lt;td&gt;名(かな)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{$form-&gt;kname1}}&lt;/td&gt;
+    &lt;td&gt;{{$form-&gt;kname2}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+{{font color=&quot;red&quot;}}■{{/font}}郵便番号(ﾊｲﾌﾝなし){{font color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+{{form_text name=&quot;zip&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}■{{/font}}都道府県{{font color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+{{form_select name=&quot;prefecture&quot; type=&quot;prefecture&quot;}}&lt;br /&gt;
+{{font color=&quot;orange&quot;}}■{{/font}}住所{{font color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+(例:○○市○○1-1-1)&lt;br /&gt;
+{{form_text name=&quot;address1&quot;}}&lt;br /&gt;
+{{font color=&quot;sky_blue&quot;}}■{{/font}}ﾏﾝｼｮﾝ名&lt;br /&gt;
+(例:○○ﾏﾝｼｮﾝ○○号室)&lt;br /&gt;
+{{form_text name=&quot;address2&quot;}}&lt;br /&gt;
+{{font color=&quot;green&quot;}}■{{/font}}携帯電話番号{{font color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+(例:09012345678)&lt;br /&gt;
+{{form_text name=&quot;tel&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+{{font color=&quot;purple&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{$form-&gt;mail_address}}&lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}ﾒｰﾙｱﾄﾞﾚｽをご確認になり、ご応募下さい｡&lt;br /&gt;
+{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+     {{font color=&quot;red&quot;}}※{{/font}}ﾒｰﾙ受信拒否設定をされている方は{{font color=&quot;red&quot;}}js-cp.jp(ﾄﾞﾒｲﾝ){{/font}}を受信できるよう､設定をお願いします｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;z&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;s&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;配送先登録フォーム&lt;/h1&gt;
+        &lt;a href=&quot;{{$config-&gt;url-&gt;http-&gt;path}}/page&quot; data-icon=&quot;back&quot; class=&quot;ui-btn-right&quot;&gt;Top&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}項目は全て必須項目です。&lt;br /&gt;
+        &lt;br /&gt;
+        &lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/registration_confirm&quot; method=&quot;POST&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+        {{form_hidden name=&quot;hash&quot;}}
+        {{form_hidden name=&quot;mail&quot;}}
+        &lt;br /&gt;
+        &lt;table border=&quot;0&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;姓&lt;/td&gt;
+            &lt;td&gt;名&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding-right:0.5em&quot;&gt;{{$form-&gt;name1}}&lt;/td&gt;
+            &lt;td style=&quot;padding-left:0.5em&quot;&gt;{{$form-&gt;name2}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;姓(かな)&lt;/td&gt;
+            &lt;td&gt;名(かな)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{$form-&gt;kname1}}&lt;/td&gt;
+            &lt;td&gt;{{$form-&gt;kname2}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        {{font color=&quot;red&quot;}}■{{/font}}郵便番号(ハイフンなし) {{font size=&quot;small&quot; color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+        {{form_text name=&quot;zip&quot;}}&lt;br /&gt;
+        {{font color=&quot;yellow&quot;}}■{{/font}}都道府県{{font size=&quot;small&quot; color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+        {{form_select name=&quot;prefecture&quot; type=&quot;prefecture&quot;}}&lt;br /&gt;
+        {{font color=&quot;orange&quot;}}■{{/font}}住所{{font size=&quot;small&quot; color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+        (例:○○市○○1-1-1)&lt;br /&gt;
+        {{form_text name=&quot;address1&quot; type=&quot;address1&quot;}}&lt;br /&gt;
+        {{font color=&quot;sky_blue&quot;}}■{{/font}}マンション名&lt;br /&gt;
+        (例:○○マンション○○号室)&lt;br /&gt;
+        {{form_text name=&quot;address2&quot; type=&quot;address2&quot;}}&lt;br /&gt;
+        {{font color=&quot;green&quot;}}■{{/font}}携帯電話番号{{font size=&quot;small&quot; color=&quot;red&quot;}}*{{/font}}&lt;br /&gt;
+        (09012345678)半角&lt;br /&gt;
+        {{form_text name=&quot;tel&quot; mode=&quot;number&quot;}}&lt;br /&gt;
+        {{font color=&quot;purple&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+        {{$form-&gt;mail_address}}&lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}メールアドレスをご確認ください。&lt;br /&gt;
+        {{/font}}
+        &lt;br /&gt;
+        {{font size=&quot;small&quot;}}{{font color=&quot;red&quot; }}※{{/font}}メール受信拒否設定をされている方は{{font color=&quot;red&quot; }}js-cp.jp(ドメイン){{/font}}を受信できるよう、設定をお願いします。{{/font}}
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+        &lt;/form&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-03-11 12:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-03-04 11:48:13</field>
+		<field name="update_date">2013-03-11 17:13:31</field>
+	</row>
+	<row>
+		<field name="id">138</field>
+		<field name="name">当選者フォーム確認</field>
+		<field name="code">registration_confirm</field>
+		<field name="action_code">registration_check, registration_validate</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+{{font color=&quot;orange_yellow&quot;}}&lt;br /&gt;配送先登録ﾌｫｰﾑ&lt;br /&gt;{{/font}}
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+       以下の内容で間違いがなければ「送信」をｸﾘｯｸしてください。修正する場合は携帯電話の「前のﾍﾟｰｼﾞに戻る」機能を利用して、再度入力をお願いいたします。&lt;br /&gt;&lt;br /&gt;
+{{/font}}
+&lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/registration_complete&quot; method=&quot;POST&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+{{form_params}}
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;
+    &lt;td&gt;姓&lt;/td&gt;
+    &lt;td&gt;名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{$form-&gt;name1}}&lt;/td&gt;
+    &lt;td&gt;{{$form-&gt;name2}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;姓(かな)&lt;/td&gt;
+    &lt;td&gt;名(かな)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;{{$form-&gt;kname1}}&lt;/td&gt;
+    &lt;td&gt;{{$form-&gt;kname2}}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+{{font color=&quot;red&quot;}}■{{/font}}郵便番号(ﾊｲﾌﾝなし)&lt;br /&gt;
+{{$request-&gt;zip}}&lt;br /&gt;
+{{font color=&quot;yellow&quot;}}■{{/font}}都道府県&lt;br /&gt;
+{{$request-&gt;prefecture}}&lt;br /&gt;
+{{font color=&quot;orange&quot;}}■{{/font}}住所&lt;br /&gt;
+{{$request-&gt;address1}}&lt;br /&gt;
+{{font color=&quot;sky_blue&quot;}}■{{/font}}ﾏﾝｼｮﾝ名&lt;br /&gt;
+{{$request-&gt;address2}}&lt;br /&gt;
+{{font color=&quot;green&quot;}}■{{/font}}携帯電話番号&lt;br /&gt;
+{{$request-&gt;tel}}&lt;br /&gt;
+{{font color=&quot;purple&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{$form-&gt;mail_address}}&lt;br /&gt;
+    {{font color=&quot;red&quot;}}※{{/font}}ﾒｰﾙｱﾄﾞﾚｽをご確認になり、ご応募下さい｡&lt;br /&gt;
+{{/font}}&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+     {{font color=&quot;red&quot;}}※{{/font}}ﾒｰﾙ受信拒否設定をされている方は{{font color=&quot;red&quot;}}js-cp.jp(ﾄﾞﾒｲﾝ){{/font}}を受信できるよう､設定をお願いします｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+&lt;/form&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;y&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;s&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;配送先登録確認&lt;/h1&gt;
+        &lt;a href=&quot;{{$config-&gt;url-&gt;http-&gt;path}}/page&quot; data-icon=&quot;back&quot; class=&quot;ui-btn-right&quot;&gt;Top&lt;/a&gt;
+    &lt;/div&gt;
+
+
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        &lt;form action=&quot;{{$request-&gt;getBaseUrl()}}/page/registration_complete&quot; method=&quot;POST&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+        {{form_params}}
+        {{font size=&quot;small&quot;}}
+        以下の内容で間違いがなければ「送信」をクリックしてください。修正する場合は携帯電話の「前のページに戻る」機能を利用して、再度入力をお願いいたします。
+        {{/font}}&lt;br /&gt;
+        &lt;br /&gt;
+        &lt;table border=&quot;0&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;姓&lt;/td&gt;
+            &lt;td&gt;名&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{$form-&gt;name1}}&lt;/td&gt;
+            &lt;td&gt;{{$form-&gt;name2}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;姓(かな)&lt;/td&gt;
+            &lt;td&gt;名(かな)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;{{$form-&gt;kname1}}&lt;/td&gt;
+            &lt;td&gt;{{$form-&gt;kname2}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        {{font color=&quot;red&quot;}}■{{/font}}郵便番号(ハイフンなし) {{font size=&quot;small&quot; color=&quot;red&quot;}}※{{/font}}&lt;br /&gt;
+        {{$request-&gt;zip}}&lt;br /&gt;
+        {{font color=&quot;yellow&quot;}}■{{/font}}都道府県{{font size=&quot;small&quot; color=&quot;red&quot;}}※{{/font}}&lt;br /&gt;
+        {{$request-&gt;prefecture}}&lt;br /&gt;
+        {{font color=&quot;orange&quot;}}■{{/font}}住所{{font size=&quot;small&quot; color=&quot;red&quot;}}※{{/font}}&lt;br /&gt;
+        {{$request-&gt;address1}}&lt;br /&gt;
+        {{font color=&quot;sky_blue&quot;}}■{{/font}}マンション名&lt;br /&gt;
+        {{$request-&gt;address2}}&lt;br /&gt;
+        {{font color=&quot;green&quot;}}■{{/font}}携帯電話番号{{font size=&quot;small&quot; color=&quot;red&quot;}}※{{/font}}&lt;br /&gt;
+        {{$request-&gt;tel}}&lt;br /&gt;
+        {{font color=&quot;purple&quot;}}■{{/font}}登録メールアドレス&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+        {{$form-&gt;mail_address}}&lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}メールアドレスをご確認ください。&lt;br /&gt;
+        {{/font}}
+        &lt;br /&gt;
+        {{font size=&quot;small&quot;}}{{font color=&quot;red&quot; }}※{{/font}}メール受信拒否設定をされている方は{{font color=&quot;red&quot; }}js-cp.jp(ドメイン){{/font}}を受信できるよう、設定をお願いします。{{/font}}
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;送信&quot; /&gt;
+    &lt;/form&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-03-11 12:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-03-04 12:17:10</field>
+		<field name="update_date">2013-03-11 17:13:31</field>
+	</row>
+	<row>
+		<field name="id">139</field>
+		<field name="name">当選者登録完了</field>
+		<field name="code">registration_complete</field>
+		<field name="action_code">registration_validate, registration_save</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+&lt;center&gt;
+&lt;br /&gt;{{font color=&quot;orange_yellow&quot;}}登録完了{{/font}}&lt;/center&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+ご登録頂きまして､誠にありがとうございました｡&lt;br /&gt;
+&lt;br /&gt;
+ご登録頂きました携帯ﾒｰﾙｱﾄﾞﾚｽに､登録完了ﾒｰﾙが届きますのでご確認ください｡&lt;br /&gt;
+当選賞品は{{font color=&quot;red&quot;}}【3月中】{{/font}}の発送を予定しております｡&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+     {{font color=&quot;red&quot;}}※{{/font}}諸事情により賞品のお届けが遅れる場合がございます｡&lt;br /&gt;
+    尚､発送の際はﾒｰﾙにてご連絡いたします｡&lt;br /&gt;
+     {{font color=&quot;red&quot;}}※{{/font}}万が一､登録完了ﾒｰﾙが配信されなくても､こちらの画面が表示されましたら､ご登録は正常に完了しております｡&lt;br /&gt;
+    &lt;br /&gt;
+    賞品到着まで､今しばらくお待ちください｡&lt;br /&gt;
+{{/font}}
+&lt;br /&gt;
+&lt;hr&gt;
+{{font color=&quot;orange_yellow&quot;}}★{{/font}}&lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/contact/form&quot;&gt;お問合わせ&lt;/a&gt;&lt;br /&gt;
+{{font size=&quot;small&quot;}}
+    {{font color=&quot;red&quot;}}※{{/font}}{{font color=&quot;gray&quot;}}当ｷｬﾝﾍﾟｰﾝに関するお問合わせは､上記窓口以外ではお受けしておりませんので､ご注意ください｡{{/font}}&lt;br /&gt;
+{{/font}}
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.pink {color: #cc0066;}
+.purple {color: #7030a0;}
+.orange {color: #ff9900;}
+
+.ui-btn-up-y,
+.ui-btn-hover-y,
+.ui-btn-down-y {
+  border: 1px solid #000;
+  background: #fff;
+  font-weight: normal;
+  color: #000;
+  text-shadow: none;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;y&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;s&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;登録完了&lt;/h1&gt;
+        &lt;a href=&quot;{{$config-&gt;url-&gt;http-&gt;path}}/page&quot; data-icon=&quot;back&quot; class=&quot;ui-btn-right&quot;&gt;Top&lt;/a&gt;
+    &lt;/div&gt;
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        ご登録頂きまして、誠にありがとうございました。&lt;br /&gt;
+        &lt;br /&gt;
+        ご登録頂きました携帯メールアドレスに、登録完了メールが届きますのでご確認ください。&lt;br /&gt;
+        当選賞品は{{font color=&quot;red&quot;}}【3月中】{{/font}}の発送を予定しております。&lt;br /&gt;
+        {{font size=&quot;small&quot;}}
+             {{font color=&quot;red&quot;}}※{{/font}}諸事情により賞品のお届けが遅れる場合がございます。&lt;br /&gt;
+            尚、発送の際はメールにてご連絡いたします。&lt;br /&gt;
+             {{font color=&quot;red&quot;}}※{{/font}}万が一、登録完了メールが配信されなくても、こちらの画面が表示されましたら、ご登録は正常に完了しております。&lt;br /&gt;
+            &lt;br /&gt;
+            賞品到着まで、今しばらくお待ちください。&lt;br /&gt;
+        {{/font}}
+        &lt;br /&gt;
+        &lt;hr style=&quot;margin: 1em -15px;&quot;&gt;
+        &lt;p&gt;
+            &lt;br /&gt;{{a link=&quot;/contact/form&quot; type=&quot;button&quot; color=&quot;black&quot; bgcolor=&quot;orange_yellow&quot; border=&quot;orange_yellow&quot;}}お問い合わせ{{/a}}&lt;br /&gt;
+            {{font size=&quot;small&quot;}}{{font color=&quot;red&quot;}}※{{/font}}当キャンペーンに関するお問い合わせは、上記窓口以外ではお受けしておりませんので、ご注意ください。{{/font}}&lt;br /&gt;
+        &lt;/p&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-03-11 12:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-03-04 12:20:57</field>
+		<field name="update_date">2013-03-11 17:13:31</field>
+	</row>
+	<row>
+		<field name="id">140</field>
+		<field name="name">当選者エラー</field>
+		<field name="code">registration_error</field>
+		<field name="action_code"></field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;content-style-type&quot; content=&quot;text/css&quot;&gt;
+&lt;title&gt;関ｼﾞｬﾆ∞&lt;/title&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;#ffffff&quot; link=&quot;#000000&quot; vlink=&quot;#000000&quot; text=&quot;#000000&quot;&gt;
+大変申し訳ございません。&lt;br /&gt;
+ご応募頂きました携帯電話以外でアクセスされた場合、登録フォームを表示することはできません。&lt;br /&gt;
+お手数ですが、応募時に契約していた携帯電話にて再度アクセス頂きますようお願い申し上げます。&lt;br /&gt;
+&lt;br /&gt;
+{{font color=&quot;red&quot;}}※{{/font}}携帯メールアドレスの変更を行った場合/契約している携帯電話会社を変更した場合/契約している携帯電話の機種変更、名義変更を行った場合/連絡がとれない場合は、当選を無効とさせて頂きます。&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;y&quot;&gt;
+&lt;div data-role=&quot;content&quot;&gt;
+    &lt;p&gt;
+        大変申し訳ございません。&lt;br /&gt;
+        ご応募頂きました携帯電話以外でアクセスされた場合、登録フォームを表示することはできません。&lt;br /&gt;
+        お手数ですが、応募時に契約していた携帯電話にて再度アクセス頂きますようお願い申し上げます。&lt;br /&gt;
+        &lt;br /&gt;
+        {{font color=&quot;red&quot;}}※{{/font}}携帯メールアドレスの変更を行った場合/契約している携帯電話会社を変更した場合/契約している携帯電話の機種変更、名義変更を行った場合/連絡がとれない場合は、当選を無効とさせて頂きます。&lt;br /&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-03-11 12:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-03-04 12:53:42</field>
+		<field name="update_date">2013-03-11 17:13:31</field>
+	</row>
+	<row>
+		<field name="id">141</field>
+		<field name="name">当選者登録（スマートフォン）</field>
+		<field name="code">registration_sp</field>
+		<field name="action_code">registration_check_mail</field>
+		<field name="content_type">text/html; charset=UTF-8</field>
+		<field name="source_mobile"></field>
+		<field name="source_smartphone">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;関ジャニ∞&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/common.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/emoji.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jw_popup.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.custom.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/sp.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;{{$request-&gt;getBaseUrl()}}/styles/jquery.mobile.theme.custom.css&quot; /&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.json.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jw_popup.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/swfobject.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.scrollTo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).bind(&quot;mobileinit&quot;, function(){
+    $.mobile.ajaxEnabled = false;
+});
+
+&lt;/script&gt;
+&lt;script src=&quot;{{$request-&gt;getBaseUrl()}}/js/jquery.mobile.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    JwPopup.init();
+
+    $(&quot;a&quot;).each(function(){
+        $(this).blur();
+    });
+
+    if(!('createTouch' in document) &amp;&amp; !('ontouchstart' in document)) {
+        //$('body').empty();
+    }
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div data-role=&quot;page&quot; id=&quot;index&quot; data-theme=&quot;y&quot;&gt;
+    &lt;div data-backbtn=&quot;false&quot; data-theme=&quot;s&quot; data-role=&quot;header&quot;&gt;
+        &lt;h1&gt;お客様情報登録&lt;/h1&gt;
+        &lt;a href=&quot;{{$config-&gt;url-&gt;http-&gt;path}}/page&quot; data-icon=&quot;back&quot; class=&quot;ui-btn-right&quot;&gt;Top&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div data-role=&quot;content&quot;&gt;
+    	ご当選おめでとうございます!!&lt;br /&gt;
+        &lt;br /&gt;
+        厳正なる抽選の結果、 “エイトレンジャー”特製マフラータオルがご当選されました。&lt;br /&gt;
+        賞品をお届けするため、お手数とは存じますが下記よりお客様情報をご登録ください。&lt;br /&gt;
+    	&lt;br /&gt;
+        &lt;form action=&quot;{{$config-&gt;url-&gt;https-&gt;path}}/page/registration_form&quot; method=&quot;POST&quot;&gt;
+        {{form_hidden name=&quot;hash&quot;}}
+        {{form_hidden name=&quot;mail&quot;}}
+        &lt;input type=&quot;hidden&quot; name=&quot;u&quot; value=&quot;{{$uid}}&quot; /&gt;
+    	&lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;配送先の登録はコチラ&quot; /&gt;
+        &lt;/form&gt;&lt;br /&gt;
+      
+        &lt;a href=&quot;{{$request-&gt;getBaseUrl()}}/page/privacy&quot; &gt;{{font color=&quot;orange_yellow&quot;}}★{{/font}}個人情報の取り扱いに関して&lt;/a&gt;&lt;/li&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</field>
+		<field name="is_close">0</field>
+		<field name="release_date">2013-03-11 12:00:00</field>
+		<field name="release_status">7</field>
+		<field name="create_date">2013-03-04 13:14:54</field>
+		<field name="update_date">2013-03-11 17:13:31</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
