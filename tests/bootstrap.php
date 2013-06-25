@@ -64,6 +64,8 @@ class TestConfig {
 		$SQL .= sprintf('%s < %s/datas/table.sql' , 
 						self::$db["dbname"]  , dirname(__FILE__) );
 		
+		echo "current dir: ".getcwd()."\n";
+		echo "exec: $SQL\n";
 		shell_exec($SQL);
 	}
 }
