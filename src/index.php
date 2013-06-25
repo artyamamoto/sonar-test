@@ -9,7 +9,7 @@ define("APPLICATION_MODE", "front");
 
 $stageFqdn = array(
     'stage.je-cp.com',
-	    'stage.js-cp.jp',
+        'stage.js-cp.jp',
     'stage.wm-cp.jp',
 	    'stage.te-kan8.jp',
     'stage.pc-cp.jp',
