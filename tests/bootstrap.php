@@ -60,12 +60,12 @@ class TestConfig {
 		}
 		$SQL = sprintf('mysql -u %s -h %s ' , self::$db["username"] , self::$db["host"] );
 		if (!empty(self::$db["password"]))
-			$SQL .= "-p ".self::$db["password"]." ";
+			$SQL .= "-p".self::$db["password"]." ";
 		$SQL .= sprintf('%s < %s/datas/table.sql' , 
 						self::$db["dbname"]  , dirname(__FILE__) );
 		
-		echo "current dir: ".getcwd()."\n";
-		echo "exec: $SQL\n";
+		//echo "current dir: ".getcwd()."\n";
+		echo "(bootstrap) exec: $SQL\n";
 		shell_exec($SQL);
 	}
 }
