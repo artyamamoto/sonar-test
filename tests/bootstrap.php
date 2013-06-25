@@ -41,6 +41,14 @@ class TestConfig {
 					"dbname" => "phpunit" ,
 				);
 			break;
+			case strpos(php_uname(),'ip-10-122-20-190') !== false :
+				TestConfig::$db = array(
+					"host" => "sonar.cbcj1uaveecq.ap-northeast-1.rds.amazonaws.com" ,
+					"username" => "sonar" , 
+					"password" => "sonar1234" , 
+					"dbname" => "phpunit" ,
+				);
+			break;
 			default:
 				TestConfig::$db = array(
 					"host" => "sonar-instance.ct6ddgfemi2m.ap-northeast-1.rds.amazonaws.com" ,
