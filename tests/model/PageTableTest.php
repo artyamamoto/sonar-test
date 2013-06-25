@@ -57,7 +57,12 @@ class PageTest extends PHPUnit_Extensions_Database_TestCase
     protected function tearDown()
     {
     }
-	public function testDummy() {
+	public function testInsert() {
+		$expected = $this->createXMLDataSet(dirname(__FILE__) . '/../datas/expected.xml');
+		$expected_page = $expected->getTable("page");
+		//print_r($page);
+		//return;
+	
 		$now = date('Y-m-d H:i:s');
 		$this->table->insert(array(
 			"name" => "phpunit テスト" ,
@@ -69,6 +74,7 @@ class PageTest extends PHPUnit_Extensions_Database_TestCase
 			"release_date" => $now,
 			"create_date" => $now,
 			
-		));	
+		));
+		$this->assertTablesEqual($expected_page , $this->getConnection()->createQueryTable("page","SELECT name,code,content_type FROM page"));	
 	}
 }
