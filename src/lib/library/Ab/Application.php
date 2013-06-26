@@ -91,7 +91,7 @@ class Ab_Application
         /**
          * Set error handler
          */
-        set_error_handler(array('Ab_Log', 'errorHandler'));
+        //set_error_handler(array('Ab_Log', 'errorHandler'));
 
         /**
          * Set registry

@@ -128,7 +128,8 @@ class Ab_Log extends Zend_Log
         } else {
             $isExit = true;
         }
-
+echo "[error] $out\n";
+return false;
         if($isExit) {
             echo nl2br($out);
             exit();

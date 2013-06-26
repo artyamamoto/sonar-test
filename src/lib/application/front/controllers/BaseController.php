@@ -30,7 +30,6 @@ class BaseController extends Ab_Controller_Action
     public function init()
     {
         parent::init();
-
         $config = Zend_Registry::getInstance()->config;
 
         Zend_Session::setOptions(array('use_only_cookies' => 'off'));
@@ -121,7 +120,7 @@ class BaseController extends Ab_Controller_Action
             if($_SERVER['HTTPS']=='on' && isset($this->_request->u) && strlen($this->_request->u) > 0) {
                 $this->_uid = $this->_request->u;
                 $timeout = time() + 60 * 86400;
-                setcookie("uid", $this->_uid, $timeout, '/', $_SERVER['SERVER_NAME']);
+                //setcookie("uid", $this->_uid, $timeout, '/', $_SERVER['SERVER_NAME']);
 
                 return true;
             }
@@ -129,7 +128,7 @@ class BaseController extends Ab_Controller_Action
             // 存在しない場合は生成
             $this->_uid = md5($device->getUserAgent() . time() . $_SERVER['REMOTE_ADDR']);
             $timeout = time() + 60 * 86400;
-            setcookie("uid", $this->_uid, $timeout, '/', $_SERVER['SERVER_NAME']);
+            //setcookie("uid", $this->_uid, $timeout, '/', $_SERVER['SERVER_NAME']);
 
             return true;
         }

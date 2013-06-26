@@ -26,8 +26,10 @@ define ("APPLICATION_ENVIRONMENT", "development");
 require_once dirname(__FILE__).'/../src/lib/application/config/init.php';
 
 $application = new Ab_Application();
-// $application->run();
-// $application->init();
+//$application->run();
+$application->init();
+$application->initView();
+
 
 class TestConfig {
 	public static $db;
@@ -73,6 +75,7 @@ TestConfig::init();
 
 class BootstrapTmp { 
 	function init() {
+if (0):
         $config = new Zend_Config_Ini(
             CONFIG_FILE,
             array(APPLICATION_MODE, APPLICATION_ENVIRONMENT)
@@ -91,7 +94,7 @@ class BootstrapTmp {
         $registry->config = $this->_config = $config;
         //$registry->logger = $logger;
 
-
+endif;
 		/***
 		 * init Database 
 		 **/
@@ -101,7 +104,7 @@ class BootstrapTmp {
                 "adapterNamespace" => "Zend_Db_Adapter",
         	));
         Ab_Db_Table::setDefaultAdapter($dbAdapter);
-        $registry->dbAdapter = $dbAdapter;
+        Zend_Registry::getInstance()->dbAdapter = $dbAdapter;
 
 	}
 }

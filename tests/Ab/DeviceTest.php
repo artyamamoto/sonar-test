@@ -20,8 +20,9 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-		$this->_user_agent = $_SERVER["HTTP_USER_AGENT"] = 
-				"Mozilla/5.0 (Linux; U; Android 1.6; ja-jp; IS01 Build/S2151) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1";
+		$this->_user_agent = (!empty($_SERVER["HTTP_USER_AGENT"]) ? $_SERVER["HTTP_USER_AGENT"] : null);
+//		$this->_user_agent = $_SERVER["HTTP_USER_AGENT"] = 
+//				"Mozilla/5.0 (Linux; U; Android 1.6; ja-jp; IS01 Build/S2151) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1";
         $this->object = Ab_Device::getInstance();
     }
 
@@ -49,7 +50,7 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
     public function testGetTypeString()
     {
 		$ret = $this->object->getTypeString();
-		$this->assertEquals("sp", $ret);
+		$this->assertEquals("pc", $ret);
     }
 
     /**
@@ -59,7 +60,7 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
     public function testIsSmartphone()
     {
 		$ret = $this->object->isSmartphone();
-		$this->assertTrue($ret);
+		$this->assertFalse($ret);
     }
 
     /**
@@ -69,7 +70,7 @@ class Ab_DeviceTest extends PHPUnit_Framework_TestCase
     public function testIsAndroid()
     {
 		$ret = $this->object->isAndroid();
-		$this->assertTrue($ret);
+		$this->assertFalse($ret);
     }
 
     /**
