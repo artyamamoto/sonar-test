@@ -23,12 +23,24 @@ if(isset($_SERVER['DEVEL']) && $_SERVER['DEVEL'] == 1) {
 
 define ("APPLICATION_ENVIRONMENT", "development");
 
+isset($_SERVER["HTTP_USER_AGENT"] ) || 
+	($_SERVER["HTTP_USER_AGENT"] = "Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16");
+isset($_SERVER["HTTPS"]) || 
+	($_SERVER["HTTPS"] = "off");
+isset($_SERVER["REMOTE_ADDR"]) || 
+	($_SERVER["REMOTE_ADDR"] = "127.0.0.1");
+isset($_SERVER["SERVER_NAME"]) || 
+	($_SERVER["SERVER_NAME"] = "stage.je-cp.com");
+isset($_SERVER["REQUEST_URI"]) || 
+	($_SERVER["REQUEST_URI"] = "/contact/notice");
+
+
 require_once dirname(__FILE__).'/../src/lib/application/config/init.php';
 
-$application = new Ab_Application();
-//$application->run();
-$application->init();
-$application->initView();
+//$application = Ab_Application::getInstance();
+// $application->run();
+//$application->init();
+//$application->initView();
 
 
 class TestConfig {

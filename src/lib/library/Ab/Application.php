@@ -23,6 +23,13 @@ class Ab_Application
      */
     protected $_response;
 
+	protected static $_instance = null;
+	public static function getInstance() {
+          if (null === self::$_instance) {
+              self::$_instance = new self();
+          }
+         return self::$_instance;
+    }
     /**
      * Constructor.
      *
@@ -91,7 +98,8 @@ class Ab_Application
         /**
          * Set error handler
          */
-        //set_error_handler(array('Ab_Log', 'errorHandler'));
+		if (!empty($_SERVER["YAMAMOTO"]))
+        	set_error_handler(array('Ab_Log', 'errorHandler'));
 
         /**
          * Set registry
@@ -195,17 +203,17 @@ class Ab_Application
      */
     public function initDatabase()
     {
-	$dbAdapter = null;
-	
+		$dbAdapter = null;
+		
         // $dbAdapter = Zend_Db::factory($this->_config->database);
         $dbAdapter = Zend_Db::factory("mysqli",array(
-		"host"     => $_SERVER["RDS_HOSTNAME"],
-		"username" => $_SERVER["RDS_USERNAME"],
-		"password" => $_SERVER["RDS_PASSWORD"],
-		"dbname"   => $_SERVER["RDS_DB_NAME"] ,
-		"charset"  => "UTF8",
-		"adapterNamespace" => "Zend_Db_Adapter",
-	));
+			"host"     => $_SERVER["RDS_HOSTNAME"],
+			"username" => $_SERVER["RDS_USERNAME"],
+			"password" => $_SERVER["RDS_PASSWORD"],
+			"dbname"   => $_SERVER["RDS_DB_NAME"] ,
+			"charset"  => "UTF8",
+			"adapterNamespace" => "Zend_Db_Adapter",
+		));
 	
 	Ab_Db_Table::setDefaultAdapter($dbAdapter);
         $registry->dbAdapter = $dbAdapter;

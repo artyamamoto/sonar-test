@@ -14,7 +14,11 @@ class Ab_Layout extends Zend_Layout
         if (null === self::$_mvcInstance) {
             self::$_mvcInstance = new self($options, true);
         } else {
-            self::$_mvcInstance->setOptions($options);
+			if (is_string($options)) {
+				self::$_mvcInstance->setLayoutPath($options);
+			} else {
+            	self::$_mvcInstance->setOptions($options);
+			}
         }
 
         return self::$_mvcInstance;
